@@ -1,0 +1,36 @@
+{
+  "build": "py311hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "py-xgboost 3.0.1 py311hecd8cb5_0",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/Users/m/opt/anaconda3/pkgs/xgboost-3.0.1-py311hecd8cb5_0",
+  "features": "",
+  "files": [],
+  "fn": "xgboost-3.0.1-py311hecd8cb5_0.conda",
+  "legacy_bz2_md5": "67dadb94ddb6d787ca0aab1b98671bd8",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/m/opt/anaconda3/pkgs/xgboost-3.0.1-py311hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "0f149d40a27d204cfd99ad4552f1c113",
+  "name": "xgboost",
+  "package_tarball_full_path": "/Users/m/opt/anaconda3/pkgs/xgboost-3.0.1-py311hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "xgboost",
+  "sha256": "ee48fe130da9aa9272acd91117717585cd0dccbbf8cf4686605de82400779996",
+  "size": 14248,
+  "subdir": "osx-64",
+  "timestamp": 1749631688094,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/xgboost-3.0.1-py311hecd8cb5_0.conda",
+  "version": "3.0.1"
+}

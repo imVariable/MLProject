@@ -1,0 +1,39 @@
+{
+  "build": "py311h91b6869_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "blas * openblas",
+    "libcxx >=14.0.6",
+    "libopenblas >=0.3.21,<1.0a0",
+    "numpy-base 1.26.4 py311hb3ec012_0",
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/Users/m/opt/anaconda3/pkgs/numpy-1.26.4-py311h91b6869_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.26.4-py311h91b6869_0.conda",
+  "legacy_bz2_md5": "c077c784069f04cc487620bcdc7707ea",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/m/opt/anaconda3/pkgs/numpy-1.26.4-py311h91b6869_0",
+    "type": 1
+  },
+  "md5": "0bd65e0e46a2be3d8158ea634466b57d",
+  "name": "numpy",
+  "package_tarball_full_path": "/Users/m/opt/anaconda3/pkgs/numpy-1.26.4-py311h91b6869_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "96d301d65c3fbd164cb520a1451703c4614d2ead43cfec90decdb6dd99dd8f60",
+  "size": 11890,
+  "subdir": "osx-64",
+  "timestamp": 1708642350281,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/numpy-1.26.4-py311h91b6869_0.conda",
+  "version": "1.26.4"
+}

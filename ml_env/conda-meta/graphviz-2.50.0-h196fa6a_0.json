@@ -1,0 +1,2298 @@
+{
+  "build": "h196fa6a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "cairo >=1.16.0,<2.0a0",
+    "expat >=2.2.10,<3.0a0",
+    "fontconfig",
+    "fonts-conda-ecosystem",
+    "freetype",
+    "gdk-pixbuf",
+    "glib >=2.69.1,<3.0a0",
+    "gts >=0.7.6,<0.8.0a0",
+    "libcxx >=12.0.0",
+    "libgd >=2.3.3,<2.4.0a0",
+    "librsvg >=2.54.4,<3.0a0",
+    "libtool",
+    "libwebp-base",
+    "pango >=1.50.7,<2.0a0",
+    "zlib >=1.2.12,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/m/opt/anaconda3/pkgs/graphviz-2.50.0-h196fa6a_0",
+  "features": "",
+  "files": [
+    "bin/.graphviz-post-link.sh",
+    "bin/acyclic",
+    "bin/bcomps",
+    "bin/ccomps",
+    "bin/circo",
+    "bin/cluster",
+    "bin/diffimg",
+    "bin/dijkstra",
+    "bin/dot",
+    "bin/dot2gxl",
+    "bin/dot_builtins",
+    "bin/edgepaint",
+    "bin/fdp",
+    "bin/gc",
+    "bin/gml2gv",
+    "bin/graphml2gv",
+    "bin/gv2gml",
+    "bin/gv2gxl",
+    "bin/gvcolor",
+    "bin/gvgen",
+    "bin/gvmap",
+    "bin/gvmap.sh",
+    "bin/gvpack",
+    "bin/gvpr",
+    "bin/gxl2dot",
+    "bin/gxl2gv",
+    "bin/mm2gv",
+    "bin/neato",
+    "bin/nop",
+    "bin/osage",
+    "bin/patchwork",
+    "bin/prune",
+    "bin/sccmap",
+    "bin/sfdp",
+    "bin/tred",
+    "bin/twopi",
+    "bin/unflatten",
+    "include/graphviz/arith.h",
+    "include/graphviz/cdt.h",
+    "include/graphviz/cgraph.h",
+    "include/graphviz/color.h",
+    "include/graphviz/geom.h",
+    "include/graphviz/graphviz_version.h",
+    "include/graphviz/gv.cpp",
+    "include/graphviz/gv.i",
+    "include/graphviz/gvc.h",
+    "include/graphviz/gvcext.h",
+    "include/graphviz/gvcjob.h",
+    "include/graphviz/gvcommon.h",
+    "include/graphviz/gvconfig.h",
+    "include/graphviz/gvplugin.h",
+    "include/graphviz/gvplugin_device.h",
+    "include/graphviz/gvplugin_layout.h",
+    "include/graphviz/gvplugin_loadimage.h",
+    "include/graphviz/gvplugin_render.h",
+    "include/graphviz/gvplugin_textlayout.h",
+    "include/graphviz/gvpr.h",
+    "include/graphviz/pack.h",
+    "include/graphviz/pathgeom.h",
+    "include/graphviz/pathplan.h",
+    "include/graphviz/textspan.h",
+    "include/graphviz/types.h",
+    "include/graphviz/usershape.h",
+    "include/graphviz/xdot.h",
+    "lib/graphviz/config6",
+    "lib/graphviz/libgvplugin_core.6.dylib",
+    "lib/graphviz/libgvplugin_core.dylib",
+    "lib/graphviz/libgvplugin_dot_layout.6.dylib",
+    "lib/graphviz/libgvplugin_dot_layout.dylib",
+    "lib/graphviz/libgvplugin_gd.6.dylib",
+    "lib/graphviz/libgvplugin_gd.dylib",
+    "lib/graphviz/libgvplugin_neato_layout.6.dylib",
+    "lib/graphviz/libgvplugin_neato_layout.dylib",
+    "lib/graphviz/libgvplugin_pango.6.dylib",
+    "lib/graphviz/libgvplugin_pango.dylib",
+    "lib/graphviz/libgvplugin_quartz.6.dylib",
+    "lib/graphviz/libgvplugin_quartz.dylib",
+    "lib/graphviz/libgvplugin_rsvg.6.dylib",
+    "lib/graphviz/libgvplugin_rsvg.dylib",
+    "lib/graphviz/libgvplugin_visio.6.dylib",
+    "lib/graphviz/libgvplugin_visio.dylib",
+    "lib/graphviz/libgvplugin_webp.6.dylib",
+    "lib/graphviz/libgvplugin_webp.dylib",
+    "lib/libcdt.5.dylib",
+    "lib/libcdt.dylib",
+    "lib/libcgraph.6.dylib",
+    "lib/libcgraph.dylib",
+    "lib/libgvc.6.dylib",
+    "lib/libgvc.dylib",
+    "lib/libgvpr.2.dylib",
+    "lib/libgvpr.dylib",
+    "lib/liblab_gamut.1.dylib",
+    "lib/liblab_gamut.dylib",
+    "lib/libpathplan.4.dylib",
+    "lib/libpathplan.dylib",
+    "lib/libxdot.4.dylib",
+    "lib/libxdot.dylib",
+    "lib/pkgconfig/libcdt.pc",
+    "lib/pkgconfig/libcgraph.pc",
+    "lib/pkgconfig/libgvc.pc",
+    "lib/pkgconfig/libgvpr.pc",
+    "lib/pkgconfig/liblab_gamut.pc",
+    "lib/pkgconfig/libpathplan.pc",
+    "lib/pkgconfig/libxdot.pc",
+    "share/graphviz/doc/AUTHORS",
+    "share/graphviz/doc/CHANGELOG.md",
+    "share/graphviz/doc/COPYING",
+    "share/graphviz/doc/Dot.ref",
+    "share/graphviz/doc/NEWS",
+    "share/graphviz/doc/addingLayout.txt",
+    "share/graphviz/doc/cpl1.0.txt",
+    "share/graphviz/doc/fontfaq.txt",
+    "share/graphviz/doc/html/FAQ.html",
+    "share/graphviz/doc/html/build.html",
+    "share/graphviz/doc/html/char.html",
+    "share/graphviz/doc/html/gdtclft.entities.example.png",
+    "share/graphviz/doc/html/index.html",
+    "share/graphviz/doc/html/info/arrows.html",
+    "share/graphviz/doc/html/info/attrs.html",
+    "share/graphviz/doc/html/info/colors.html",
+    "share/graphviz/doc/html/info/command.html",
+    "share/graphviz/doc/html/info/index.html",
+    "share/graphviz/doc/html/info/lang.html",
+    "share/graphviz/doc/html/info/output.html",
+    "share/graphviz/doc/html/info/shapes.html",
+    "share/graphviz/doc/html/internal_todo.html",
+    "share/graphviz/doc/html/pspdf.png",
+    "share/graphviz/doc/html/schema/arguments.xml",
+    "share/graphviz/doc/html/schema/attributes.xml",
+    "share/graphviz/doc/html/schema/attributes.xslt",
+    "share/graphviz/doc/html/todo.html",
+    "share/graphviz/doc/html/winbuild.html",
+    "share/graphviz/doc/latex_suggestions.txt",
+    "share/graphviz/doc/pdf/Agraph.pdf",
+    "share/graphviz/doc/pdf/dotguide.pdf",
+    "share/graphviz/doc/pdf/dottyguide.pdf",
+    "share/graphviz/doc/pdf/libguide.pdf",
+    "share/graphviz/doc/pdf/neatoguide.pdf",
+    "share/graphviz/graphs/directed/KW91.gv",
+    "share/graphviz/graphs/directed/Latin1.gv",
+    "share/graphviz/graphs/directed/NaN.gv",
+    "share/graphviz/graphs/directed/abstract.gv",
+    "share/graphviz/graphs/directed/alf.gv",
+    "share/graphviz/graphs/directed/arrows.gv",
+    "share/graphviz/graphs/directed/awilliams.gv",
+    "share/graphviz/graphs/directed/biological.gv",
+    "share/graphviz/graphs/directed/clust.gv",
+    "share/graphviz/graphs/directed/clust1.gv",
+    "share/graphviz/graphs/directed/clust2.gv",
+    "share/graphviz/graphs/directed/clust3.gv",
+    "share/graphviz/graphs/directed/clust4.gv",
+    "share/graphviz/graphs/directed/clust5.gv",
+    "share/graphviz/graphs/directed/crazy.gv",
+    "share/graphviz/graphs/directed/ctext.gv",
+    "share/graphviz/graphs/directed/dfa.gv",
+    "share/graphviz/graphs/directed/fig6.gv",
+    "share/graphviz/graphs/directed/fsm.gv",
+    "share/graphviz/graphs/directed/grammar.gv",
+    "share/graphviz/graphs/directed/hashtable.gv",
+    "share/graphviz/graphs/directed/honda-tokoro.gv",
+    "share/graphviz/graphs/directed/japanese.gv",
+    "share/graphviz/graphs/directed/jcctree.gv",
+    "share/graphviz/graphs/directed/jsort.gv",
+    "share/graphviz/graphs/directed/ldbxtried.gv",
+    "share/graphviz/graphs/directed/longflat.gv",
+    "share/graphviz/graphs/directed/mike.gv",
+    "share/graphviz/graphs/directed/nhg.gv",
+    "share/graphviz/graphs/directed/oldarrows.gv",
+    "share/graphviz/graphs/directed/pgram.gv",
+    "share/graphviz/graphs/directed/pm2way.gv",
+    "share/graphviz/graphs/directed/pmpipe.gv",
+    "share/graphviz/graphs/directed/polypoly.gv",
+    "share/graphviz/graphs/directed/proc3d.gv",
+    "share/graphviz/graphs/directed/psfonttest.gv",
+    "share/graphviz/graphs/directed/record2.gv",
+    "share/graphviz/graphs/directed/records.gv",
+    "share/graphviz/graphs/directed/rowe.gv",
+    "share/graphviz/graphs/directed/russian.gv",
+    "share/graphviz/graphs/directed/sdh.gv",
+    "share/graphviz/graphs/directed/shells.gv",
+    "share/graphviz/graphs/directed/states.gv",
+    "share/graphviz/graphs/directed/structs.gv",
+    "share/graphviz/graphs/directed/switch.gv",
+    "share/graphviz/graphs/directed/table.gv",
+    "share/graphviz/graphs/directed/train11.gv",
+    "share/graphviz/graphs/directed/trapeziumlr.gv",
+    "share/graphviz/graphs/directed/tree.gv",
+    "share/graphviz/graphs/directed/triedds.gv",
+    "share/graphviz/graphs/directed/try.gv",
+    "share/graphviz/graphs/directed/unix.gv",
+    "share/graphviz/graphs/directed/unix2.gv",
+    "share/graphviz/graphs/directed/viewfile.gv",
+    "share/graphviz/graphs/directed/world.gv",
+    "share/graphviz/graphs/undirected/ER.gv",
+    "share/graphviz/graphs/undirected/Heawood.gv",
+    "share/graphviz/graphs/undirected/Petersen.gv",
+    "share/graphviz/graphs/undirected/ngk10_4.gv",
+    "share/graphviz/graphs/undirected/process.gv",
+    "share/graphviz/gvpr/addedges",
+    "share/graphviz/gvpr/addranks",
+    "share/graphviz/gvpr/addrings",
+    "share/graphviz/gvpr/anon",
+    "share/graphviz/gvpr/attr",
+    "share/graphviz/gvpr/bb",
+    "share/graphviz/gvpr/bbox",
+    "share/graphviz/gvpr/binduce",
+    "share/graphviz/gvpr/bipart",
+    "share/graphviz/gvpr/chkclusters",
+    "share/graphviz/gvpr/chkedges",
+    "share/graphviz/gvpr/cliptree",
+    "share/graphviz/gvpr/col",
+    "share/graphviz/gvpr/collapse",
+    "share/graphviz/gvpr/color",
+    "share/graphviz/gvpr/cycle",
+    "share/graphviz/gvpr/dechain",
+    "share/graphviz/gvpr/deghist",
+    "share/graphviz/gvpr/deledges",
+    "share/graphviz/gvpr/delmulti",
+    "share/graphviz/gvpr/delnodes",
+    "share/graphviz/gvpr/depath",
+    "share/graphviz/gvpr/dijkstra",
+    "share/graphviz/gvpr/flatten",
+    "share/graphviz/gvpr/get-layers-list",
+    "share/graphviz/gvpr/group",
+    "share/graphviz/gvpr/histogram",
+    "share/graphviz/gvpr/indent",
+    "share/graphviz/gvpr/knbhd",
+    "share/graphviz/gvpr/maxdeg",
+    "share/graphviz/gvpr/path",
+    "share/graphviz/gvpr/rotate",
+    "share/graphviz/gvpr/scale",
+    "share/graphviz/gvpr/scalexy",
+    "share/graphviz/gvpr/span",
+    "share/graphviz/gvpr/topon",
+    "share/graphviz/gvpr/treetoclust",
+    "share/man/man1/acyclic.1",
+    "share/man/man1/bcomps.1",
+    "share/man/man1/ccomps.1",
+    "share/man/man1/circo.1",
+    "share/man/man1/cluster.1",
+    "share/man/man1/diffimg.1",
+    "share/man/man1/dijkstra.1",
+    "share/man/man1/dot.1",
+    "share/man/man1/dot2gxl.1",
+    "share/man/man1/dotty.1",
+    "share/man/man1/edgepaint.1",
+    "share/man/man1/fdp.1",
+    "share/man/man1/gc.1",
+    "share/man/man1/gml2gv.1",
+    "share/man/man1/graphml2gv.1",
+    "share/man/man1/gv2gml.1",
+    "share/man/man1/gv2gxl.1",
+    "share/man/man1/gvcolor.1",
+    "share/man/man1/gvgen.1",
+    "share/man/man1/gvmap.1",
+    "share/man/man1/gvmap.sh.1",
+    "share/man/man1/gvpack.1",
+    "share/man/man1/gvpr.1",
+    "share/man/man1/gxl2dot.1",
+    "share/man/man1/gxl2gv.1",
+    "share/man/man1/lneato.1",
+    "share/man/man1/mingle.1",
+    "share/man/man1/mm2gv.1",
+    "share/man/man1/neato.1",
+    "share/man/man1/nop.1",
+    "share/man/man1/osage.1",
+    "share/man/man1/patchwork.1",
+    "share/man/man1/prune.1",
+    "share/man/man1/sccmap.1",
+    "share/man/man1/sfdp.1",
+    "share/man/man1/tred.1",
+    "share/man/man1/twopi.1",
+    "share/man/man1/unflatten.1",
+    "share/man/man1/vimdot.1",
+    "share/man/man3/cdt.3",
+    "share/man/man3/cgraph.3",
+    "share/man/man3/expr.3",
+    "share/man/man3/gvc.3",
+    "share/man/man3/gvpr.3",
+    "share/man/man3/pack.3",
+    "share/man/man3/pathplan.3",
+    "share/man/man3/xdot.3",
+    "share/man/man7/graphviz.7"
+  ],
+  "fn": "graphviz-2.50.0-h196fa6a_0.conda",
+  "legacy_bz2_md5": "0e5326a73eb2d8fbc4cdba89f39de7b4",
+  "license": "EPL-1.0",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/m/opt/anaconda3/pkgs/graphviz-2.50.0-h196fa6a_0",
+    "type": 1
+  },
+  "md5": "5b2f09c21c3b824ae4c64da3d9bde396",
+  "name": "graphviz",
+  "package_tarball_full_path": "/Users/m/opt/anaconda3/pkgs/graphviz-2.50.0-h196fa6a_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.graphviz-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "95ba2ee5f068f26d3a906f22af1907c945476805186a9e49ea3315a91b475c38",
+        "sha256_in_prefix": "95ba2ee5f068f26d3a906f22af1907c945476805186a9e49ea3315a91b475c38",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "bin/acyclic",
+        "path_type": "hardlink",
+        "sha256": "c4ab14e0e5ef7644a0ff00c06defbc2cbb97fa463c54b59d595da3d46b57cae4",
+        "sha256_in_prefix": "c4ab14e0e5ef7644a0ff00c06defbc2cbb97fa463c54b59d595da3d46b57cae4",
+        "size_in_bytes": 14076
+      },
+      {
+        "_path": "bin/bcomps",
+        "path_type": "hardlink",
+        "sha256": "f5da07774a5ba51cc5dec1be37bff6d60deb2baf4847199dafff5c8dfdec5413",
+        "sha256_in_prefix": "f5da07774a5ba51cc5dec1be37bff6d60deb2baf4847199dafff5c8dfdec5413",
+        "size_in_bytes": 19644
+      },
+      {
+        "_path": "bin/ccomps",
+        "path_type": "hardlink",
+        "sha256": "3b4aa4589e23992c5f108088a2a82d8433d1658df653a508c5ba1a996b146e32",
+        "sha256_in_prefix": "3b4aa4589e23992c5f108088a2a82d8433d1658df653a508c5ba1a996b146e32",
+        "size_in_bytes": 25296
+      },
+      {
+        "_path": "bin/circo",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/cluster",
+        "path_type": "hardlink",
+        "sha256": "7e3d38f0a13dfd55559be70fd570f1155e3ccb4a33aa372a128a19f88ef7d469",
+        "sha256_in_prefix": "7e3d38f0a13dfd55559be70fd570f1155e3ccb4a33aa372a128a19f88ef7d469",
+        "size_in_bytes": 447268
+      },
+      {
+        "_path": "bin/diffimg",
+        "path_type": "hardlink",
+        "sha256": "135b4ccafc387a0c141d303d8613838cfb1e7ca769a078816513ea2b2ef9e97c",
+        "sha256_in_prefix": "135b4ccafc387a0c141d303d8613838cfb1e7ca769a078816513ea2b2ef9e97c",
+        "size_in_bytes": 14148
+      },
+      {
+        "_path": "bin/dijkstra",
+        "path_type": "hardlink",
+        "sha256": "b17f2b8000111c0b8e0847f42681762b4af59cdf81881c5afd93025349a430fe",
+        "sha256_in_prefix": "b17f2b8000111c0b8e0847f42681762b4af59cdf81881c5afd93025349a430fe",
+        "size_in_bytes": 19124
+      },
+      {
+        "_path": "bin/dot",
+        "path_type": "hardlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "sha256_in_prefix": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/dot2gxl",
+        "path_type": "softlink",
+        "sha256": "1ede57e60a24c567a09d773d88be2027e18592bbc8c530683b26afe71822e5ac",
+        "size_in_bytes": 43588
+      },
+      {
+        "_path": "bin/dot_builtins",
+        "path_type": "hardlink",
+        "sha256": "adc9afed04fbd5dd7b5fded72f98f96b6ecf38dc9d9d3b42e453217b39fe6255",
+        "sha256_in_prefix": "adc9afed04fbd5dd7b5fded72f98f96b6ecf38dc9d9d3b42e453217b39fe6255",
+        "size_in_bytes": 22848
+      },
+      {
+        "_path": "bin/edgepaint",
+        "path_type": "hardlink",
+        "sha256": "ce2df1e66b898e64fe184473cc115e81f5c48e3a5fc07fbc21da37b6c5f60a8e",
+        "sha256_in_prefix": "ce2df1e66b898e64fe184473cc115e81f5c48e3a5fc07fbc21da37b6c5f60a8e",
+        "size_in_bytes": 276324
+      },
+      {
+        "_path": "bin/fdp",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/gc",
+        "path_type": "hardlink",
+        "sha256": "36c6995469c7b5f5c2eb58354c5da0c3c1aa9aa4296825bd00e519adfdc9c69d",
+        "sha256_in_prefix": "36c6995469c7b5f5c2eb58354c5da0c3c1aa9aa4296825bd00e519adfdc9c69d",
+        "size_in_bytes": 19284
+      },
+      {
+        "_path": "bin/gml2gv",
+        "path_type": "hardlink",
+        "sha256": "4fc2514456337adbae51ec0e8b49b899133756bb417f64c9de254493c9a25963",
+        "sha256_in_prefix": "4fc2514456337adbae51ec0e8b49b899133756bb417f64c9de254493c9a25963",
+        "size_in_bytes": 47540
+      },
+      {
+        "_path": "bin/graphml2gv",
+        "path_type": "hardlink",
+        "sha256": "8f7f4658d0ba28886f501c90848d35e97c0ed87768137e38742a287528670792",
+        "sha256_in_prefix": "8f7f4658d0ba28886f501c90848d35e97c0ed87768137e38742a287528670792",
+        "size_in_bytes": 24724
+      },
+      {
+        "_path": "bin/gv2gml",
+        "path_type": "hardlink",
+        "sha256": "749db6f4297d5d86b540c0f4381016ce27b2311f4b2bfa11ffa9d231ec3cac42",
+        "sha256_in_prefix": "749db6f4297d5d86b540c0f4381016ce27b2311f4b2bfa11ffa9d231ec3cac42",
+        "size_in_bytes": 23420
+      },
+      {
+        "_path": "bin/gv2gxl",
+        "path_type": "softlink",
+        "sha256": "1ede57e60a24c567a09d773d88be2027e18592bbc8c530683b26afe71822e5ac",
+        "size_in_bytes": 43588
+      },
+      {
+        "_path": "bin/gvcolor",
+        "path_type": "hardlink",
+        "sha256": "6756dc6ef0c3fd34fc8ee5699d0209222616cb0b03c3cce689fb643e84bfebbe",
+        "sha256_in_prefix": "6756dc6ef0c3fd34fc8ee5699d0209222616cb0b03c3cce689fb643e84bfebbe",
+        "size_in_bytes": 31864
+      },
+      {
+        "_path": "bin/gvgen",
+        "path_type": "hardlink",
+        "sha256": "9795b0c0e7d5dd9ab8c75417a3750921cbbc3529a3fd4da840944d8e3cb71bea",
+        "sha256_in_prefix": "9795b0c0e7d5dd9ab8c75417a3750921cbbc3529a3fd4da840944d8e3cb71bea",
+        "size_in_bytes": 27156
+      },
+      {
+        "_path": "bin/gvmap",
+        "path_type": "hardlink",
+        "sha256": "9f31cae7673a5855b4a97690720d23cc8627ed16482d773afa50701ce20b851b",
+        "sha256_in_prefix": "9f31cae7673a5855b4a97690720d23cc8627ed16482d773afa50701ce20b851b",
+        "size_in_bytes": 449000
+      },
+      {
+        "_path": "bin/gvmap.sh",
+        "path_type": "hardlink",
+        "sha256": "efff9808990e4b43a1b9453ad2615755acc858ff9d66b0ef460c1214ce8d4f50",
+        "sha256_in_prefix": "efff9808990e4b43a1b9453ad2615755acc858ff9d66b0ef460c1214ce8d4f50",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "bin/gvpack",
+        "path_type": "hardlink",
+        "sha256": "db1247672696ccc8a755317c213d4a240cbb50ec49ba6eb82041b41df46919ed",
+        "sha256_in_prefix": "db1247672696ccc8a755317c213d4a240cbb50ec49ba6eb82041b41df46919ed",
+        "size_in_bytes": 29828
+      },
+      {
+        "_path": "bin/gvpr",
+        "path_type": "hardlink",
+        "sha256": "59271fd0fc445be933ae2c01327d0a52af7c385ede80ae78dee56be9c796444b",
+        "sha256_in_prefix": "59271fd0fc445be933ae2c01327d0a52af7c385ede80ae78dee56be9c796444b",
+        "size_in_bytes": 8556
+      },
+      {
+        "_path": "bin/gxl2dot",
+        "path_type": "softlink",
+        "sha256": "1ede57e60a24c567a09d773d88be2027e18592bbc8c530683b26afe71822e5ac",
+        "size_in_bytes": 43588
+      },
+      {
+        "_path": "bin/gxl2gv",
+        "path_type": "hardlink",
+        "sha256": "1ede57e60a24c567a09d773d88be2027e18592bbc8c530683b26afe71822e5ac",
+        "sha256_in_prefix": "1ede57e60a24c567a09d773d88be2027e18592bbc8c530683b26afe71822e5ac",
+        "size_in_bytes": 43588
+      },
+      {
+        "_path": "bin/mm2gv",
+        "path_type": "hardlink",
+        "sha256": "f081fe57ca29d67fa81a6e4f81718c09a4673a8f0dc255ef47d2e38d6399abe0",
+        "sha256_in_prefix": "f081fe57ca29d67fa81a6e4f81718c09a4673a8f0dc255ef47d2e38d6399abe0",
+        "size_in_bytes": 86884
+      },
+      {
+        "_path": "bin/neato",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/nop",
+        "path_type": "hardlink",
+        "sha256": "97a3ae242710f18d44f6ba6e25e1b4f92a082aa621aebec1b2120a055f9bfa14",
+        "sha256_in_prefix": "97a3ae242710f18d44f6ba6e25e1b4f92a082aa621aebec1b2120a055f9bfa14",
+        "size_in_bytes": 14028
+      },
+      {
+        "_path": "bin/osage",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/patchwork",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/prune",
+        "path_type": "hardlink",
+        "sha256": "5d736021d9cdcff79533abfb006d1c95aae3ab85490a6f4984ac6050d0e24827",
+        "sha256_in_prefix": "5d736021d9cdcff79533abfb006d1c95aae3ab85490a6f4984ac6050d0e24827",
+        "size_in_bytes": 19288
+      },
+      {
+        "_path": "bin/sccmap",
+        "path_type": "hardlink",
+        "sha256": "d4a3992733d6be9fd69dace40ac95ed19d3022af04d7773bbfb03b14fbb5c719",
+        "sha256_in_prefix": "d4a3992733d6be9fd69dace40ac95ed19d3022af04d7773bbfb03b14fbb5c719",
+        "size_in_bytes": 19452
+      },
+      {
+        "_path": "bin/sfdp",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/tred",
+        "path_type": "hardlink",
+        "sha256": "52510a1cbc29060de4e8a5cb6b5e9281551942bbadcfee089b36267ccc3ad517",
+        "sha256_in_prefix": "52510a1cbc29060de4e8a5cb6b5e9281551942bbadcfee089b36267ccc3ad517",
+        "size_in_bytes": 18852
+      },
+      {
+        "_path": "bin/twopi",
+        "path_type": "softlink",
+        "sha256": "24e66382db8329926e1caf91fd5df57ca608d56e93e6784dc689a3825dcdcbf2",
+        "size_in_bytes": 14144
+      },
+      {
+        "_path": "bin/unflatten",
+        "path_type": "hardlink",
+        "sha256": "5b3fb4383e961f40533494e2fb73b2b8b72149043b80104a365d99a38233c54b",
+        "sha256_in_prefix": "5b3fb4383e961f40533494e2fb73b2b8b72149043b80104a365d99a38233c54b",
+        "size_in_bytes": 18784
+      },
+      {
+        "_path": "include/graphviz/arith.h",
+        "path_type": "hardlink",
+        "sha256": "4bb27baec184e4ae1b14ddeb1dc08f0b1f5ff8f9ec347d5284244b0a5d3d3fe2",
+        "sha256_in_prefix": "4bb27baec184e4ae1b14ddeb1dc08f0b1f5ff8f9ec347d5284244b0a5d3d3fe2",
+        "size_in_bytes": 1919
+      },
+      {
+        "_path": "include/graphviz/cdt.h",
+        "path_type": "hardlink",
+        "sha256": "385b2656cfe75cfe1730a97c1822921d0f286f6303146901fb64a23fe1ddb2b7",
+        "sha256_in_prefix": "385b2656cfe75cfe1730a97c1822921d0f286f6303146901fb64a23fe1ddb2b7",
+        "size_in_bytes": 10067
+      },
+      {
+        "_path": "include/graphviz/cgraph.h",
+        "path_type": "hardlink",
+        "sha256": "64a3cedc3cb5dda6c270eaaf05114e2e23ab9994404b54bc1b65f86e16229561",
+        "sha256_in_prefix": "64a3cedc3cb5dda6c270eaaf05114e2e23ab9994404b54bc1b65f86e16229561",
+        "size_in_bytes": 17540
+      },
+      {
+        "_path": "include/graphviz/color.h",
+        "path_type": "hardlink",
+        "sha256": "16cd693a7fb9d622f3419da3d1cbae6a135afc98f9995871a8d3337f98146bb9",
+        "sha256_in_prefix": "16cd693a7fb9d622f3419da3d1cbae6a135afc98f9995871a8d3337f98146bb9",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "include/graphviz/geom.h",
+        "path_type": "hardlink",
+        "sha256": "a438cecbcb8615142af5f9b8b5afb59d9cf66012286b1f7edbc4ba18638f60c5",
+        "sha256_in_prefix": "a438cecbcb8615142af5f9b8b5afb59d9cf66012286b1f7edbc4ba18638f60c5",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "include/graphviz/graphviz_version.h",
+        "path_type": "hardlink",
+        "sha256": "50d0578015f438b21eccf54241d1b2787469681f2dc6791d517decfb140a78e1",
+        "sha256_in_prefix": "50d0578015f438b21eccf54241d1b2787469681f2dc6791d517decfb140a78e1",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "include/graphviz/gv.cpp",
+        "path_type": "hardlink",
+        "sha256": "52d72708accd25fa3faad73ecb3cccb58036c9fa9cf93585cf850d5f0e62c5fc",
+        "sha256_in_prefix": "52d72708accd25fa3faad73ecb3cccb58036c9fa9cf93585cf850d5f0e62c5fc",
+        "size_in_bytes": 17063
+      },
+      {
+        "_path": "include/graphviz/gv.i",
+        "path_type": "hardlink",
+        "sha256": "336e500df427ca84776687aa658eb6cacbb135e36090926bdff59e23c52f3270",
+        "sha256_in_prefix": "336e500df427ca84776687aa658eb6cacbb135e36090926bdff59e23c52f3270",
+        "size_in_bytes": 8740
+      },
+      {
+        "_path": "include/graphviz/gvc.h",
+        "path_type": "hardlink",
+        "sha256": "da98563f6d15d398bfdb6e7c27e580eecbfe82abf3229f626fc85b1ad6dc7afa",
+        "sha256_in_prefix": "da98563f6d15d398bfdb6e7c27e580eecbfe82abf3229f626fc85b1ad6dc7afa",
+        "size_in_bytes": 4246
+      },
+      {
+        "_path": "include/graphviz/gvcext.h",
+        "path_type": "hardlink",
+        "sha256": "057de9827ca10be3ebc5f81c5998339236471dbf5f3a4f5549ccf631e763160d",
+        "sha256_in_prefix": "057de9827ca10be3ebc5f81c5998339236471dbf5f3a4f5549ccf631e763160d",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "include/graphviz/gvcjob.h",
+        "path_type": "hardlink",
+        "sha256": "b3f39b44cc34f3ebdc92292304e01862ecab7d1d3be0a0159b42e1709648794d",
+        "sha256_in_prefix": "b3f39b44cc34f3ebdc92292304e01862ecab7d1d3be0a0159b42e1709648794d",
+        "size_in_bytes": 12991
+      },
+      {
+        "_path": "include/graphviz/gvcommon.h",
+        "path_type": "hardlink",
+        "sha256": "4e34f2d0ed347e7259e4b5fe8819e6c7c4bc78ca65fc5537aa856f32c751e7c7",
+        "sha256_in_prefix": "4e34f2d0ed347e7259e4b5fe8819e6c7c4bc78ca65fc5537aa856f32c751e7c7",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "include/graphviz/gvconfig.h",
+        "path_type": "hardlink",
+        "sha256": "d5c594d5c0fce67145fcd9a558682642ecfd80e1447242f1dc85184ca7419bf1",
+        "sha256_in_prefix": "d5c594d5c0fce67145fcd9a558682642ecfd80e1447242f1dc85184ca7419bf1",
+        "size_in_bytes": 846
+      },
+      {
+        "_path": "include/graphviz/gvplugin.h",
+        "path_type": "hardlink",
+        "sha256": "14ba1b527b6296cd17ef31f5078bf195cb178fd4eefcebbe48de878130d00463",
+        "sha256_in_prefix": "14ba1b527b6296cd17ef31f5078bf195cb178fd4eefcebbe48de878130d00463",
+        "size_in_bytes": 1722
+      },
+      {
+        "_path": "include/graphviz/gvplugin_device.h",
+        "path_type": "hardlink",
+        "sha256": "877196723f02a953d5b62dcbfa8d248d8c070eb9a21b231f58cefb788a284050",
+        "sha256_in_prefix": "877196723f02a953d5b62dcbfa8d248d8c070eb9a21b231f58cefb788a284050",
+        "size_in_bytes": 797
+      },
+      {
+        "_path": "include/graphviz/gvplugin_layout.h",
+        "path_type": "hardlink",
+        "sha256": "305780274781b037e539180e41ebfdf220ae67fc13ec29885c031b9448852cb8",
+        "sha256_in_prefix": "305780274781b037e539180e41ebfdf220ae67fc13ec29885c031b9448852cb8",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "include/graphviz/gvplugin_loadimage.h",
+        "path_type": "hardlink",
+        "sha256": "3d99edb82e089881dabba5d85f3a9180cbb6c469af851b58e2420bce11d53268",
+        "sha256_in_prefix": "3d99edb82e089881dabba5d85f3a9180cbb6c469af851b58e2420bce11d53268",
+        "size_in_bytes": 1260
+      },
+      {
+        "_path": "include/graphviz/gvplugin_render.h",
+        "path_type": "hardlink",
+        "sha256": "93363427a2cbe5cd655c3db2ff1177987ba5c92f02c80754236291337af7ffc9",
+        "sha256_in_prefix": "93363427a2cbe5cd655c3db2ff1177987ba5c92f02c80754236291337af7ffc9",
+        "size_in_bytes": 2097
+      },
+      {
+        "_path": "include/graphviz/gvplugin_textlayout.h",
+        "path_type": "hardlink",
+        "sha256": "63e006c1d424996c20d13bd938b0ed7259c76f1de2837c2e98e2fa8cd78b7f29",
+        "sha256_in_prefix": "63e006c1d424996c20d13bd938b0ed7259c76f1de2837c2e98e2fa8cd78b7f29",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "include/graphviz/gvpr.h",
+        "path_type": "hardlink",
+        "sha256": "4f8c882c440c8a0a0f7fcce82461a6d9bc5db34b20f93bc9ad60f0bb96f7981c",
+        "sha256_in_prefix": "4f8c882c440c8a0a0f7fcce82461a6d9bc5db34b20f93bc9ad60f0bb96f7981c",
+        "size_in_bytes": 2004
+      },
+      {
+        "_path": "include/graphviz/pack.h",
+        "path_type": "hardlink",
+        "sha256": "085964354b2afb42fd79202d80f06009143c977a4399ff1789ba8f503dce3e16",
+        "sha256_in_prefix": "085964354b2afb42fd79202d80f06009143c977a4399ff1789ba8f503dce3e16",
+        "size_in_bytes": 3448
+      },
+      {
+        "_path": "include/graphviz/pathgeom.h",
+        "path_type": "hardlink",
+        "sha256": "5b3a5568f949227cb6c3c91262869ff972b83780033d139f61d2b1fe9fc1280b",
+        "sha256_in_prefix": "5b3a5568f949227cb6c3c91262869ff972b83780033d139f61d2b1fe9fc1280b",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "include/graphviz/pathplan.h",
+        "path_type": "hardlink",
+        "sha256": "f1c4208a17e90a4bdcc5640a075f6b37b8b8bf2dcf0f04d638eb9be1cb4eac05",
+        "sha256_in_prefix": "f1c4208a17e90a4bdcc5640a075f6b37b8b8bf2dcf0f04d638eb9be1cb4eac05",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "include/graphviz/textspan.h",
+        "path_type": "hardlink",
+        "sha256": "e83201f6ace7f1a32e2e81e10dd9b1584794e84a852e50bdc10972fa595d384c",
+        "sha256_in_prefix": "e83201f6ace7f1a32e2e81e10dd9b1584794e84a852e50bdc10972fa595d384c",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "include/graphviz/types.h",
+        "path_type": "hardlink",
+        "sha256": "fb524e843e7103f043db3af59fa7da0493db0138601886853fc0cdb20d9b8af0",
+        "sha256_in_prefix": "fb524e843e7103f043db3af59fa7da0493db0138601886853fc0cdb20d9b8af0",
+        "size_in_bytes": 21122
+      },
+      {
+        "_path": "include/graphviz/usershape.h",
+        "path_type": "hardlink",
+        "sha256": "b8b961ab5aab12a8803c82658178ec9293eefdcabb30dbb6059a98595aecdf05",
+        "sha256_in_prefix": "b8b961ab5aab12a8803c82658178ec9293eefdcabb30dbb6059a98595aecdf05",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "include/graphviz/xdot.h",
+        "path_type": "hardlink",
+        "sha256": "ca19b44d95fd1410096f8eada78550873460f747982f80ba46bf500bb51baef0",
+        "sha256_in_prefix": "ca19b44d95fd1410096f8eada78550873460f747982f80ba46bf500bb51baef0",
+        "size_in_bytes": 4325
+      },
+      {
+        "_path": "lib/graphviz/config6",
+        "path_type": "hardlink",
+        "sha256": "e7935a6b0d6e105135ca2acd0473366799f94a7334c9699e1cfb5e451d2145d4",
+        "sha256_in_prefix": "e7935a6b0d6e105135ca2acd0473366799f94a7334c9699e1cfb5e451d2145d4",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "a98c9ec65477ddad1f5f601b3a92ff8e5dcba72e8adc7b0b84e49646f8617afe",
+        "sha256_in_prefix": "a98c9ec65477ddad1f5f601b3a92ff8e5dcba72e8adc7b0b84e49646f8617afe",
+        "size_in_bytes": 127008
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_core.dylib",
+        "path_type": "softlink",
+        "sha256": "a98c9ec65477ddad1f5f601b3a92ff8e5dcba72e8adc7b0b84e49646f8617afe",
+        "size_in_bytes": 127008
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "e97b5c46ccafffe07c9fc17620820e6de9ccab3b243fa8fb3610d925c8d9bc8e",
+        "sha256_in_prefix": "e97b5c46ccafffe07c9fc17620820e6de9ccab3b243fa8fb3610d925c8d9bc8e",
+        "size_in_bytes": 164004
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_dot_layout.dylib",
+        "path_type": "softlink",
+        "sha256": "e97b5c46ccafffe07c9fc17620820e6de9ccab3b243fa8fb3610d925c8d9bc8e",
+        "size_in_bytes": 164004
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_gd.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "193a31a054274420d98f1dc794aee31baf845fa1544e93e507874af471a89896",
+        "sha256_in_prefix": "193a31a054274420d98f1dc794aee31baf845fa1544e93e507874af471a89896",
+        "size_in_bytes": 53076
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_gd.dylib",
+        "path_type": "softlink",
+        "sha256": "193a31a054274420d98f1dc794aee31baf845fa1544e93e507874af471a89896",
+        "size_in_bytes": 53076
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "2949ca81ce920978cf90ee882168a7a978439f3df4085c6d8da51532bb7a8925",
+        "sha256_in_prefix": "2949ca81ce920978cf90ee882168a7a978439f3df4085c6d8da51532bb7a8925",
+        "size_in_bytes": 803316
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_neato_layout.dylib",
+        "path_type": "softlink",
+        "sha256": "2949ca81ce920978cf90ee882168a7a978439f3df4085c6d8da51532bb7a8925",
+        "size_in_bytes": 803316
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_pango.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "2052293c6690347ccac2e08aa3b1a2c239ef5542caaa4de1f610c3a6e6f3a52a",
+        "sha256_in_prefix": "2052293c6690347ccac2e08aa3b1a2c239ef5542caaa4de1f610c3a6e6f3a52a",
+        "size_in_bytes": 52372
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_pango.dylib",
+        "path_type": "softlink",
+        "sha256": "2052293c6690347ccac2e08aa3b1a2c239ef5542caaa4de1f610c3a6e6f3a52a",
+        "size_in_bytes": 52372
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_quartz.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "52e47668eec8e41dae1a74d8463e5ded16c67714bd80b3ec3d63db24fd4408ba",
+        "sha256_in_prefix": "52e47668eec8e41dae1a74d8463e5ded16c67714bd80b3ec3d63db24fd4408ba",
+        "size_in_bytes": 28796
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_quartz.dylib",
+        "path_type": "softlink",
+        "sha256": "52e47668eec8e41dae1a74d8463e5ded16c67714bd80b3ec3d63db24fd4408ba",
+        "size_in_bytes": 28796
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_rsvg.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "7a408d13f9deedaeae971525a122914dd42b845e281c0b43c82316955962feec",
+        "sha256_in_prefix": "7a408d13f9deedaeae971525a122914dd42b845e281c0b43c82316955962feec",
+        "size_in_bytes": 18512
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_rsvg.dylib",
+        "path_type": "softlink",
+        "sha256": "7a408d13f9deedaeae971525a122914dd42b845e281c0b43c82316955962feec",
+        "size_in_bytes": 18512
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_visio.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "5e3b51e215fdceb408fe68217e6c145a2d75be40f14fce3ab128d377ca7117fd",
+        "sha256_in_prefix": "5e3b51e215fdceb408fe68217e6c145a2d75be40f14fce3ab128d377ca7117fd",
+        "size_in_bytes": 50772
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_visio.dylib",
+        "path_type": "softlink",
+        "sha256": "5e3b51e215fdceb408fe68217e6c145a2d75be40f14fce3ab128d377ca7117fd",
+        "size_in_bytes": 50772
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_webp.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "c65da1dae933fd503ef079f0fcea21f142553db6ccd599d4c6f09520c9f9cb5d",
+        "sha256_in_prefix": "c65da1dae933fd503ef079f0fcea21f142553db6ccd599d4c6f09520c9f9cb5d",
+        "size_in_bytes": 19136
+      },
+      {
+        "_path": "lib/graphviz/libgvplugin_webp.dylib",
+        "path_type": "softlink",
+        "sha256": "c65da1dae933fd503ef079f0fcea21f142553db6ccd599d4c6f09520c9f9cb5d",
+        "size_in_bytes": 19136
+      },
+      {
+        "_path": "lib/libcdt.5.dylib",
+        "path_type": "hardlink",
+        "sha256": "1ad3f351233e66e1172ac5f2debe9a0ba075139bcd331ad3099ce295bd7673f4",
+        "sha256_in_prefix": "1ad3f351233e66e1172ac5f2debe9a0ba075139bcd331ad3099ce295bd7673f4",
+        "size_in_bytes": 26668
+      },
+      {
+        "_path": "lib/libcdt.dylib",
+        "path_type": "softlink",
+        "sha256": "1ad3f351233e66e1172ac5f2debe9a0ba075139bcd331ad3099ce295bd7673f4",
+        "size_in_bytes": 26668
+      },
+      {
+        "_path": "lib/libcgraph.6.dylib",
+        "path_type": "hardlink",
+        "sha256": "dcc489d90da8b282f968525d0d9d3f677952a78388179f67c5e75d7e35878a62",
+        "sha256_in_prefix": "dcc489d90da8b282f968525d0d9d3f677952a78388179f67c5e75d7e35878a62",
+        "size_in_bytes": 89616
+      },
+      {
+        "_path": "lib/libcgraph.dylib",
+        "path_type": "softlink",
+        "sha256": "dcc489d90da8b282f968525d0d9d3f677952a78388179f67c5e75d7e35878a62",
+        "size_in_bytes": 89616
+      },
+      {
+        "_path": "lib/libgvc.6.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "0cb8bc71cb481bcd1cc17fab028396d883002a80f39a0271814d68814a5114e0",
+        "sha256_in_prefix": "f4df16a675e6a20d9afa9fa4910f95a9792003ed515e099ca0542c6c3204a5d6",
+        "size_in_bytes": 567708
+      },
+      {
+        "_path": "lib/libgvc.dylib",
+        "path_type": "softlink",
+        "sha256": "0cb8bc71cb481bcd1cc17fab028396d883002a80f39a0271814d68814a5114e0",
+        "size_in_bytes": 567708
+      },
+      {
+        "_path": "lib/libgvpr.2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "79c6dd22905b5d0ec3ced9edb83cde31292f4c325792e3989101d5bf5d3debaf",
+        "sha256_in_prefix": "591df3144860c725859b6404b44acbfc1c51bea1b18bdc60f88fa41afe075084",
+        "size_in_bytes": 347164
+      },
+      {
+        "_path": "lib/libgvpr.dylib",
+        "path_type": "softlink",
+        "sha256": "79c6dd22905b5d0ec3ced9edb83cde31292f4c325792e3989101d5bf5d3debaf",
+        "size_in_bytes": 347164
+      },
+      {
+        "_path": "lib/liblab_gamut.1.dylib",
+        "path_type": "hardlink",
+        "sha256": "f0ecf3268599bb469408579f48877a118bfb6e4ea4b5f5a86d65c9f1fdb56af6",
+        "sha256_in_prefix": "f0ecf3268599bb469408579f48877a118bfb6e4ea4b5f5a86d65c9f1fdb56af6",
+        "size_in_bytes": 53400
+      },
+      {
+        "_path": "lib/liblab_gamut.dylib",
+        "path_type": "softlink",
+        "sha256": "f0ecf3268599bb469408579f48877a118bfb6e4ea4b5f5a86d65c9f1fdb56af6",
+        "size_in_bytes": 53400
+      },
+      {
+        "_path": "lib/libpathplan.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "b1d1d408d85ccd7fdc9f41f164ac2e17545e9c7673876cbdea34f44efcd064c2",
+        "sha256_in_prefix": "b1d1d408d85ccd7fdc9f41f164ac2e17545e9c7673876cbdea34f44efcd064c2",
+        "size_in_bytes": 35280
+      },
+      {
+        "_path": "lib/libpathplan.dylib",
+        "path_type": "softlink",
+        "sha256": "b1d1d408d85ccd7fdc9f41f164ac2e17545e9c7673876cbdea34f44efcd064c2",
+        "size_in_bytes": 35280
+      },
+      {
+        "_path": "lib/libxdot.4.dylib",
+        "path_type": "hardlink",
+        "sha256": "47a3353da8134f002950a6f8c18a03c564717e33d31409c861a8c61638c98c41",
+        "sha256_in_prefix": "47a3353da8134f002950a6f8c18a03c564717e33d31409c861a8c61638c98c41",
+        "size_in_bytes": 30340
+      },
+      {
+        "_path": "lib/libxdot.dylib",
+        "path_type": "softlink",
+        "sha256": "47a3353da8134f002950a6f8c18a03c564717e33d31409c861a8c61638c98c41",
+        "size_in_bytes": 30340
+      },
+      {
+        "_path": "lib/pkgconfig/libcdt.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "5f55180bab35c78e312e5906c816782605f915e31dda9086586768327ee57ffe",
+        "sha256_in_prefix": "b9566594640d4796e667a49d30653fc8499774bd276410737d74e3b0d009d704",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "lib/pkgconfig/libcgraph.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "884539e0b2c33cb74cd5251d3ff9c9a4aab1ea66441a5c77a97ff23c26b67de4",
+        "sha256_in_prefix": "ca1db7607d947a27e6cdc888f9188b24bad4d7dcc3c8c980ba12ebc38590ff4d",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/pkgconfig/libgvc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "c5fc9e13f40066873529d67642af6b37889bafaea679985515f8a70f86a33be5",
+        "sha256_in_prefix": "e8091f627c4a0214723646061116e18822a1982c22747e9f871c6474d6fb9fea",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "lib/pkgconfig/libgvpr.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "cacc156a11604c0db19b01821df5de6082197da7e24aa20d5957a930f92b7a71",
+        "sha256_in_prefix": "a9d95a0e0961a9824acb4ed5cf0f1c304e224cbd9dcb8b6612910bc9a87114d9",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/pkgconfig/liblab_gamut.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "1c1a39ec05d0387f608d4f240b76c41c60b7e99bc7df83237d2d0c74454d3879",
+        "sha256_in_prefix": "9fe868317bdd1c0e12b58d98383125b0a7ec5734a5a61828879414b9fafe1e6c",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/pkgconfig/libpathplan.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "7ed9ca0cfaf0ed1e9bc13e64420d515a72712786441659be936c3bedb2a6a632",
+        "sha256_in_prefix": "d77ebea2e32fbaa865ede0bccd086c5a60a7701b5e6cec628e5b81a89c68681d",
+        "size_in_bytes": 522
+      },
+      {
+        "_path": "lib/pkgconfig/libxdot.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a627d404-c822-41c5-a39d-84d93e442b15pme0m_yh/croots/recipe/graphviz_1656619033704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "2f224baa34a5e164419b3a170904ba68e8aa9e31d0f4124ce89aea4544b78df7",
+        "sha256_in_prefix": "3eda7b8abca8ee597a70a41894d0d796151e4d00892e851e979a902ac87c2791",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "share/graphviz/doc/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "182eaf397edc803d0e44a25708ba70ecafc143c0f610ea7048c6b9687a939ff0",
+        "sha256_in_prefix": "182eaf397edc803d0e44a25708ba70ecafc143c0f610ea7048c6b9687a939ff0",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "share/graphviz/doc/CHANGELOG.md",
+        "path_type": "hardlink",
+        "sha256": "3b3799c9a259d145cf86085a05bc205c4fabc6dcb432c905e37df3d0aee7355d",
+        "sha256_in_prefix": "3b3799c9a259d145cf86085a05bc205c4fabc6dcb432c905e37df3d0aee7355d",
+        "size_in_bytes": 65905
+      },
+      {
+        "_path": "share/graphviz/doc/COPYING",
+        "path_type": "hardlink",
+        "sha256": "77d36f258d2abcc3b2fd03db32ca0abfeb71226e9160873bed066f05906b82dd",
+        "sha256_in_prefix": "77d36f258d2abcc3b2fd03db32ca0abfeb71226e9160873bed066f05906b82dd",
+        "size_in_bytes": 11798
+      },
+      {
+        "_path": "share/graphviz/doc/Dot.ref",
+        "path_type": "hardlink",
+        "sha256": "80cb6f6d57bb85d7c4f731d3973bf46832bc129ac6963a87e9bc9d9c80175281",
+        "sha256_in_prefix": "80cb6f6d57bb85d7c4f731d3973bf46832bc129ac6963a87e9bc9d9c80175281",
+        "size_in_bytes": 38007
+      },
+      {
+        "_path": "share/graphviz/doc/NEWS",
+        "path_type": "hardlink",
+        "sha256": "34923f796a663f29e0b54332494a855ca3b79bf609a536ab18a01a384d734e59",
+        "sha256_in_prefix": "34923f796a663f29e0b54332494a855ca3b79bf609a536ab18a01a384d734e59",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "share/graphviz/doc/addingLayout.txt",
+        "path_type": "hardlink",
+        "sha256": "e961fd4a44d17b65c06fb90136a5017eefd1e33115f0759e456e8d26c2729b44",
+        "sha256_in_prefix": "e961fd4a44d17b65c06fb90136a5017eefd1e33115f0759e456e8d26c2729b44",
+        "size_in_bytes": 9510
+      },
+      {
+        "_path": "share/graphviz/doc/cpl1.0.txt",
+        "path_type": "hardlink",
+        "sha256": "7b47225a5b77cb7825efc6a4d7e0ac57864c790542cf92f5080ec2bf310c00e5",
+        "sha256_in_prefix": "7b47225a5b77cb7825efc6a4d7e0ac57864c790542cf92f5080ec2bf310c00e5",
+        "size_in_bytes": 11613
+      },
+      {
+        "_path": "share/graphviz/doc/fontfaq.txt",
+        "path_type": "hardlink",
+        "sha256": "768af62527f52fe65e4cb23e050840c2808845eca95385708cca69e63e2802be",
+        "sha256_in_prefix": "768af62527f52fe65e4cb23e050840c2808845eca95385708cca69e63e2802be",
+        "size_in_bytes": 14598
+      },
+      {
+        "_path": "share/graphviz/doc/html/FAQ.html",
+        "path_type": "hardlink",
+        "sha256": "16b82d0ca604947a1a177888eea629094c7a890dec504b9350777c4b2857d3a5",
+        "sha256_in_prefix": "16b82d0ca604947a1a177888eea629094c7a890dec504b9350777c4b2857d3a5",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "share/graphviz/doc/html/build.html",
+        "path_type": "hardlink",
+        "sha256": "29564bc1f5509434116a7ac66d511cab54d2810a28b8796d5d0cf68b5dd7f814",
+        "sha256_in_prefix": "29564bc1f5509434116a7ac66d511cab54d2810a28b8796d5d0cf68b5dd7f814",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "share/graphviz/doc/html/char.html",
+        "path_type": "hardlink",
+        "sha256": "44ce8461e8a237f6f1d265e80ee43bcaab67cb29fba6482bfc373c808a516819",
+        "sha256_in_prefix": "44ce8461e8a237f6f1d265e80ee43bcaab67cb29fba6482bfc373c808a516819",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "share/graphviz/doc/html/gdtclft.entities.example.png",
+        "path_type": "hardlink",
+        "sha256": "49cc4ff695f3cb9e7de37e773f2c701e5c60bb9b56a9b0937665d392aa84fe60",
+        "sha256_in_prefix": "49cc4ff695f3cb9e7de37e773f2c701e5c60bb9b56a9b0937665d392aa84fe60",
+        "size_in_bytes": 69037
+      },
+      {
+        "_path": "share/graphviz/doc/html/index.html",
+        "path_type": "hardlink",
+        "sha256": "0eb2e69422ee2492dd393c6b0b86233494311484c48f912be8021da29a2a8c54",
+        "sha256_in_prefix": "0eb2e69422ee2492dd393c6b0b86233494311484c48f912be8021da29a2a8c54",
+        "size_in_bytes": 2636
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/arrows.html",
+        "path_type": "hardlink",
+        "sha256": "ca41a1de627c6f00c7227ba3dbc81d5ee71423ec1d2d3cb84bc7e628498cf072",
+        "sha256_in_prefix": "ca41a1de627c6f00c7227ba3dbc81d5ee71423ec1d2d3cb84bc7e628498cf072",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/attrs.html",
+        "path_type": "hardlink",
+        "sha256": "d573c99badf5d625be5e28ac98aa8cb2df89b06c1a03e84a3075304ef979c010",
+        "sha256_in_prefix": "d573c99badf5d625be5e28ac98aa8cb2df89b06c1a03e84a3075304ef979c010",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/colors.html",
+        "path_type": "hardlink",
+        "sha256": "b437e035c081cd72e4882ab3fc8f2d962276332e232cd1e0fd8b5682eb2ade1f",
+        "sha256_in_prefix": "b437e035c081cd72e4882ab3fc8f2d962276332e232cd1e0fd8b5682eb2ade1f",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/command.html",
+        "path_type": "hardlink",
+        "sha256": "78afea9d73cd1be1c8aa4a9e90597eac0177270588236895582ba1dc44389482",
+        "sha256_in_prefix": "78afea9d73cd1be1c8aa4a9e90597eac0177270588236895582ba1dc44389482",
+        "size_in_bytes": 214
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/index.html",
+        "path_type": "hardlink",
+        "sha256": "92ff957f8acdc1d1fe0306a4ec29e8a4f70303ab3e5a0b976630e08397e5a180",
+        "sha256_in_prefix": "92ff957f8acdc1d1fe0306a4ec29e8a4f70303ab3e5a0b976630e08397e5a180",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/lang.html",
+        "path_type": "hardlink",
+        "sha256": "f849fdae3dd75a8cc03eee322e2a481758fd22ebf9937c2ff532a551ca1ff755",
+        "sha256_in_prefix": "f849fdae3dd75a8cc03eee322e2a481758fd22ebf9937c2ff532a551ca1ff755",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/output.html",
+        "path_type": "hardlink",
+        "sha256": "2e0fe7d2c19b63bbb6f1284e21023067520990190297055d945d332c4537d6ee",
+        "sha256_in_prefix": "2e0fe7d2c19b63bbb6f1284e21023067520990190297055d945d332c4537d6ee",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "share/graphviz/doc/html/info/shapes.html",
+        "path_type": "hardlink",
+        "sha256": "502b71cf0bf86b837a1f4209a9d5c914c10ce7381e6af0f6bb01a792f3303cb7",
+        "sha256_in_prefix": "502b71cf0bf86b837a1f4209a9d5c914c10ce7381e6af0f6bb01a792f3303cb7",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "share/graphviz/doc/html/internal_todo.html",
+        "path_type": "hardlink",
+        "sha256": "cf34adc16f2e9a82f6b93a248fbd52ffaed2fbc3492becce08345518e0ae9c12",
+        "sha256_in_prefix": "cf34adc16f2e9a82f6b93a248fbd52ffaed2fbc3492becce08345518e0ae9c12",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "share/graphviz/doc/html/pspdf.png",
+        "path_type": "hardlink",
+        "sha256": "554b04dcb30d08752a80cce6f57b58f191cbb2a462a0d103a7c240d1d0c7bdd6",
+        "sha256_in_prefix": "554b04dcb30d08752a80cce6f57b58f191cbb2a462a0d103a7c240d1d0c7bdd6",
+        "size_in_bytes": 4592
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/arguments.xml",
+        "path_type": "hardlink",
+        "sha256": "71d3537defc5645c8aa7400768601177afa7dda0ba2ebae9582fe4b3b3bed76a",
+        "sha256_in_prefix": "71d3537defc5645c8aa7400768601177afa7dda0ba2ebae9582fe4b3b3bed76a",
+        "size_in_bytes": 1332
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/attributes.xml",
+        "path_type": "hardlink",
+        "sha256": "f1e76d502a1351ee9216fbe2d0c61a44ef24154e442e1495cd970d746843a315",
+        "sha256_in_prefix": "f1e76d502a1351ee9216fbe2d0c61a44ef24154e442e1495cd970d746843a315",
+        "size_in_bytes": 99618
+      },
+      {
+        "_path": "share/graphviz/doc/html/schema/attributes.xslt",
+        "path_type": "hardlink",
+        "sha256": "14f0c5fcac924408f1debac166cc7c9e821f0abcf91a3cf758006aca06aeb060",
+        "sha256_in_prefix": "14f0c5fcac924408f1debac166cc7c9e821f0abcf91a3cf758006aca06aeb060",
+        "size_in_bytes": 13228
+      },
+      {
+        "_path": "share/graphviz/doc/html/todo.html",
+        "path_type": "hardlink",
+        "sha256": "a402c9d616760a03dc97306f25e699553dd93daaaa0bc4a9e4bf2d467e00cc4f",
+        "sha256_in_prefix": "a402c9d616760a03dc97306f25e699553dd93daaaa0bc4a9e4bf2d467e00cc4f",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "share/graphviz/doc/html/winbuild.html",
+        "path_type": "hardlink",
+        "sha256": "70d70f8d9a5e47d17a62bc039c08579135523fbad3d7293d7f7875f0e975a687",
+        "sha256_in_prefix": "70d70f8d9a5e47d17a62bc039c08579135523fbad3d7293d7f7875f0e975a687",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "share/graphviz/doc/latex_suggestions.txt",
+        "path_type": "hardlink",
+        "sha256": "acdbe3da350a56fb38504794c9fb8f94c4ec213fd83588c89aff90a2f9f18191",
+        "sha256_in_prefix": "acdbe3da350a56fb38504794c9fb8f94c4ec213fd83588c89aff90a2f9f18191",
+        "size_in_bytes": 3230
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/Agraph.pdf",
+        "path_type": "hardlink",
+        "sha256": "285b536c4af21e8f6a5736a5ed7ea3578172fdf8f0a1d1a3feeba27df6487583",
+        "sha256_in_prefix": "285b536c4af21e8f6a5736a5ed7ea3578172fdf8f0a1d1a3feeba27df6487583",
+        "size_in_bytes": 158841
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dotguide.pdf",
+        "path_type": "hardlink",
+        "sha256": "6aa4a4f220de2a2a3a00f3cd48a6aebd972a2691dddfd228b97f0733b38e8066",
+        "sha256_in_prefix": "6aa4a4f220de2a2a3a00f3cd48a6aebd972a2691dddfd228b97f0733b38e8066",
+        "size_in_bytes": 283995
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/dottyguide.pdf",
+        "path_type": "hardlink",
+        "sha256": "2a0e0789c3132a9c205453545a7f24c86dc9096711f585b007871718010d965f",
+        "sha256_in_prefix": "2a0e0789c3132a9c205453545a7f24c86dc9096711f585b007871718010d965f",
+        "size_in_bytes": 323186
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/libguide.pdf",
+        "path_type": "hardlink",
+        "sha256": "2e32307ef936a027393a4d18b6e87e14cec3f4fa92659c5f65bd196ab0766247",
+        "sha256_in_prefix": "2e32307ef936a027393a4d18b6e87e14cec3f4fa92659c5f65bd196ab0766247",
+        "size_in_bytes": 345600
+      },
+      {
+        "_path": "share/graphviz/doc/pdf/neatoguide.pdf",
+        "path_type": "hardlink",
+        "sha256": "87b9788e8388b144ac313052524b56f26e7053cbd5a24f18ffa7af75403bf4af",
+        "sha256_in_prefix": "87b9788e8388b144ac313052524b56f26e7053cbd5a24f18ffa7af75403bf4af",
+        "size_in_bytes": 113744
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/KW91.gv",
+        "path_type": "hardlink",
+        "sha256": "b60d0b6edb798a26920a665da1c8c6a73931e9a4569917fe09a0aadbb27367c5",
+        "sha256_in_prefix": "b60d0b6edb798a26920a665da1c8c6a73931e9a4569917fe09a0aadbb27367c5",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/Latin1.gv",
+        "path_type": "hardlink",
+        "sha256": "8e880d6e3e3a109ea50a90706f626106dd01138c10863db180f30c7fec6a8395",
+        "sha256_in_prefix": "8e880d6e3e3a109ea50a90706f626106dd01138c10863db180f30c7fec6a8395",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/NaN.gv",
+        "path_type": "hardlink",
+        "sha256": "dbcb55b7e662da32aebcda03c8f5b61ee6b412fa0c44458063529266060b2f5b",
+        "sha256_in_prefix": "dbcb55b7e662da32aebcda03c8f5b61ee6b412fa0c44458063529266060b2f5b",
+        "size_in_bytes": 2672
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/abstract.gv",
+        "path_type": "hardlink",
+        "sha256": "d1b3b4f5ab27c15025d4ca91f041b5e04a18f52b04da78a0450cea83b7b90027",
+        "sha256_in_prefix": "d1b3b4f5ab27c15025d4ca91f041b5e04a18f52b04da78a0450cea83b7b90027",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/alf.gv",
+        "path_type": "hardlink",
+        "sha256": "b8db69b03c973eb2babeae926ced1f6fe81dc9fe083b08feb07e50d01b538276",
+        "sha256_in_prefix": "b8db69b03c973eb2babeae926ced1f6fe81dc9fe083b08feb07e50d01b538276",
+        "size_in_bytes": 958
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/arrows.gv",
+        "path_type": "hardlink",
+        "sha256": "11eb5d512e30e51990ae8ed5d2f044358ac3227dd5b3301959fe1ddaa0591b5e",
+        "sha256_in_prefix": "11eb5d512e30e51990ae8ed5d2f044358ac3227dd5b3301959fe1ddaa0591b5e",
+        "size_in_bytes": 4766
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/awilliams.gv",
+        "path_type": "hardlink",
+        "sha256": "d2ef7126661ef1b842143ee6882a86de6b4c8767c204b1bef9684241b6d8faae",
+        "sha256_in_prefix": "d2ef7126661ef1b842143ee6882a86de6b4c8767c204b1bef9684241b6d8faae",
+        "size_in_bytes": 7305
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/biological.gv",
+        "path_type": "hardlink",
+        "sha256": "a5e2b01d3b0527445cb0cb7a50433eed0594905d685985319f85ba83f8c0bf23",
+        "sha256_in_prefix": "a5e2b01d3b0527445cb0cb7a50433eed0594905d685985319f85ba83f8c0bf23",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust.gv",
+        "path_type": "hardlink",
+        "sha256": "a6e135f819873d3e4273715ce94e8f3707f5d467e18f325d622833932a100cae",
+        "sha256_in_prefix": "a6e135f819873d3e4273715ce94e8f3707f5d467e18f325d622833932a100cae",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust1.gv",
+        "path_type": "hardlink",
+        "sha256": "e3c09a9d55228ee642a13fd9dab55df343a1e441e97de8e1ef5d5bc8c3bfaebb",
+        "sha256_in_prefix": "e3c09a9d55228ee642a13fd9dab55df343a1e441e97de8e1ef5d5bc8c3bfaebb",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust2.gv",
+        "path_type": "hardlink",
+        "sha256": "90092757bc5966671f3349be36b9133b29732cbe739775422cf66eb6536a9af0",
+        "sha256_in_prefix": "90092757bc5966671f3349be36b9133b29732cbe739775422cf66eb6536a9af0",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust3.gv",
+        "path_type": "hardlink",
+        "sha256": "65321beb01e069143d729a158aa2546b700d25248b9ed9b4264fe6d305c49779",
+        "sha256_in_prefix": "65321beb01e069143d729a158aa2546b700d25248b9ed9b4264fe6d305c49779",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust4.gv",
+        "path_type": "hardlink",
+        "sha256": "dd4f7d38966260e6a05acd03a5e1811fdd9c2863828ea616f19c24224db30c5a",
+        "sha256_in_prefix": "dd4f7d38966260e6a05acd03a5e1811fdd9c2863828ea616f19c24224db30c5a",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/clust5.gv",
+        "path_type": "hardlink",
+        "sha256": "5950749bc4d1fbcc180191adcd475d3e4b6acff1e551ebebb7bb9fb4f0ce4738",
+        "sha256_in_prefix": "5950749bc4d1fbcc180191adcd475d3e4b6acff1e551ebebb7bb9fb4f0ce4738",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/crazy.gv",
+        "path_type": "hardlink",
+        "sha256": "0943b48386a7f6baaf4b8f9123e7140c55f36953967fafd76bc3ab29639b5fbd",
+        "sha256_in_prefix": "0943b48386a7f6baaf4b8f9123e7140c55f36953967fafd76bc3ab29639b5fbd",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/ctext.gv",
+        "path_type": "hardlink",
+        "sha256": "83aa5508a19002d66e414d6e47791f96cc2b7d0e79408417be539b76b4a41abf",
+        "sha256_in_prefix": "83aa5508a19002d66e414d6e47791f96cc2b7d0e79408417be539b76b4a41abf",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/dfa.gv",
+        "path_type": "hardlink",
+        "sha256": "e9f351f0fab62092ca406e74c159068d8e4a641e0ac86bd29f76fec8993e668a",
+        "sha256_in_prefix": "e9f351f0fab62092ca406e74c159068d8e4a641e0ac86bd29f76fec8993e668a",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/fig6.gv",
+        "path_type": "hardlink",
+        "sha256": "8ae99d3c85b3487d9c6fc1862a93c73170bc69d1ec8267d60834ac1f89d6d264",
+        "sha256_in_prefix": "8ae99d3c85b3487d9c6fc1862a93c73170bc69d1ec8267d60834ac1f89d6d264",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/fsm.gv",
+        "path_type": "hardlink",
+        "sha256": "88f0a27f933db544495310fe7fe18ae0e686e9996f9955df5c38c1a32dbbbe43",
+        "sha256_in_prefix": "88f0a27f933db544495310fe7fe18ae0e686e9996f9955df5c38c1a32dbbbe43",
+        "size_in_bytes": 605
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/grammar.gv",
+        "path_type": "hardlink",
+        "sha256": "b052afcbdde1823b112b7910bbdc46a0ff799d415e000ef08223146b951cdb65",
+        "sha256_in_prefix": "b052afcbdde1823b112b7910bbdc46a0ff799d415e000ef08223146b951cdb65",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/hashtable.gv",
+        "path_type": "hardlink",
+        "sha256": "0cb9b2c2bcf9a6a797b970a743964dc9f1219d2af5d680c1c58959f8afd0cc1a",
+        "sha256_in_prefix": "0cb9b2c2bcf9a6a797b970a743964dc9f1219d2af5d680c1c58959f8afd0cc1a",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/honda-tokoro.gv",
+        "path_type": "hardlink",
+        "sha256": "d64090d432751986e72aa8a2bf3dcb48fe17931ac91ade3a1b335fb29ca3e7f3",
+        "sha256_in_prefix": "d64090d432751986e72aa8a2bf3dcb48fe17931ac91ade3a1b335fb29ca3e7f3",
+        "size_in_bytes": 3090
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/japanese.gv",
+        "path_type": "hardlink",
+        "sha256": "2b71038ca2937ca7cc9f55064c83cc9af9d9b1f22e8fb67832743bd16263764d",
+        "sha256_in_prefix": "2b71038ca2937ca7cc9f55064c83cc9af9d9b1f22e8fb67832743bd16263764d",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/jcctree.gv",
+        "path_type": "hardlink",
+        "sha256": "de3905eb3d75019ca113566b90487d0f9545eca152f4b492b4c097c659793312",
+        "sha256_in_prefix": "de3905eb3d75019ca113566b90487d0f9545eca152f4b492b4c097c659793312",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/jsort.gv",
+        "path_type": "hardlink",
+        "sha256": "5527a0993b6892be73ca4ce883cc7d45855d71fc124c9eab6134b7f5a38a2e33",
+        "sha256_in_prefix": "5527a0993b6892be73ca4ce883cc7d45855d71fc124c9eab6134b7f5a38a2e33",
+        "size_in_bytes": 6189
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/ldbxtried.gv",
+        "path_type": "hardlink",
+        "sha256": "ed0514ca60f477a96c87fbe02c717328505be4d0f0fa0b4462cdb0737810099d",
+        "sha256_in_prefix": "ed0514ca60f477a96c87fbe02c717328505be4d0f0fa0b4462cdb0737810099d",
+        "size_in_bytes": 5155
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/longflat.gv",
+        "path_type": "hardlink",
+        "sha256": "a360f5f985ebae0c887d99f4eacc062776d13004ce60849f7f99b41f5bb19e75",
+        "sha256_in_prefix": "a360f5f985ebae0c887d99f4eacc062776d13004ce60849f7f99b41f5bb19e75",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/mike.gv",
+        "path_type": "hardlink",
+        "sha256": "d812f4b8fe5d4764140d59e7c992d4f94b1e4c403ac6945f94e7c3bd614e5960",
+        "sha256_in_prefix": "d812f4b8fe5d4764140d59e7c992d4f94b1e4c403ac6945f94e7c3bd614e5960",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/nhg.gv",
+        "path_type": "hardlink",
+        "sha256": "9d0af0732c8c2143141d7ddafb5dd448696b9123711c3f0c5cd42c3a50bf6416",
+        "sha256_in_prefix": "9d0af0732c8c2143141d7ddafb5dd448696b9123711c3f0c5cd42c3a50bf6416",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/oldarrows.gv",
+        "path_type": "hardlink",
+        "sha256": "a921e4357b165631c97e276f8a881807d1bda11b3abdf1f54bdee820ca294715",
+        "sha256_in_prefix": "a921e4357b165631c97e276f8a881807d1bda11b3abdf1f54bdee820ca294715",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pgram.gv",
+        "path_type": "hardlink",
+        "sha256": "8bb210bc824dd5f8d9e26591b90dd8665d376369f8d3a0fa85439617c3c61cb6",
+        "sha256_in_prefix": "8bb210bc824dd5f8d9e26591b90dd8665d376369f8d3a0fa85439617c3c61cb6",
+        "size_in_bytes": 2614
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pm2way.gv",
+        "path_type": "hardlink",
+        "sha256": "76bad46eff8906d09703b34e185e714f26f88f6ee32b35105ef7baa8d475bebf",
+        "sha256_in_prefix": "76bad46eff8906d09703b34e185e714f26f88f6ee32b35105ef7baa8d475bebf",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/pmpipe.gv",
+        "path_type": "hardlink",
+        "sha256": "f54994f8b83d64b70881d806d77dcfb0ce87bfa0eef28ef87265620719f4650c",
+        "sha256_in_prefix": "f54994f8b83d64b70881d806d77dcfb0ce87bfa0eef28ef87265620719f4650c",
+        "size_in_bytes": 3499
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/polypoly.gv",
+        "path_type": "hardlink",
+        "sha256": "1cfc0bf45d4f5387dfb387b54792cc4aa453f64f7fd4111047b9fda179d2e162",
+        "sha256_in_prefix": "1cfc0bf45d4f5387dfb387b54792cc4aa453f64f7fd4111047b9fda179d2e162",
+        "size_in_bytes": 5155
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/proc3d.gv",
+        "path_type": "hardlink",
+        "sha256": "97090e19671ca02443809d2b18ad9d07d49232261d7e77ca621cc4aea7c8ae4f",
+        "sha256_in_prefix": "97090e19671ca02443809d2b18ad9d07d49232261d7e77ca621cc4aea7c8ae4f",
+        "size_in_bytes": 6121
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/psfonttest.gv",
+        "path_type": "hardlink",
+        "sha256": "fa87bac5d87b89bae457f74585c7a4af1a2487125a4565a94467270ae0311e8d",
+        "sha256_in_prefix": "fa87bac5d87b89bae457f74585c7a4af1a2487125a4565a94467270ae0311e8d",
+        "size_in_bytes": 2634
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/record2.gv",
+        "path_type": "hardlink",
+        "sha256": "c37166e504a3ed903e84b3ed9e60497b169e0c94519cfbb6fc299c573755e5be",
+        "sha256_in_prefix": "c37166e504a3ed903e84b3ed9e60497b169e0c94519cfbb6fc299c573755e5be",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/records.gv",
+        "path_type": "hardlink",
+        "sha256": "6c07da2a7321f46a136144d53a19c3d2ab2f127237335fc044ff362c65435861",
+        "sha256_in_prefix": "6c07da2a7321f46a136144d53a19c3d2ab2f127237335fc044ff362c65435861",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/rowe.gv",
+        "path_type": "hardlink",
+        "sha256": "68740927c4c37ebecc6cfdc9708ab57ab4fa8d6157b3637540285c85b6640437",
+        "sha256_in_prefix": "68740927c4c37ebecc6cfdc9708ab57ab4fa8d6157b3637540285c85b6640437",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/russian.gv",
+        "path_type": "hardlink",
+        "sha256": "72b51763a249ee73252dfefca3abf77b975d9358781bcace40b0daec868a5f3e",
+        "sha256_in_prefix": "72b51763a249ee73252dfefca3abf77b975d9358781bcace40b0daec868a5f3e",
+        "size_in_bytes": 520
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/sdh.gv",
+        "path_type": "hardlink",
+        "sha256": "6ed1c8b651c6e6ce874ec238104cc1da23947fa3e885f809423c8b0f599b7d7b",
+        "sha256_in_prefix": "6ed1c8b651c6e6ce874ec238104cc1da23947fa3e885f809423c8b0f599b7d7b",
+        "size_in_bytes": 5428
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/shells.gv",
+        "path_type": "hardlink",
+        "sha256": "a9f70bd7db220ea974af49b02a513ccdf8c03630dcfa920a109e6da57bcbc426",
+        "sha256_in_prefix": "a9f70bd7db220ea974af49b02a513ccdf8c03630dcfa920a109e6da57bcbc426",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/states.gv",
+        "path_type": "hardlink",
+        "sha256": "c81a2e58ec30a7d98bcca1167c710318dc9e0dcaa059730a8a6bc97bccc40542",
+        "sha256_in_prefix": "c81a2e58ec30a7d98bcca1167c710318dc9e0dcaa059730a8a6bc97bccc40542",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/structs.gv",
+        "path_type": "hardlink",
+        "sha256": "26202c6e6503eae2d9503a83029e862da34f40b8ecb657de5dc7dd855c49d576",
+        "sha256_in_prefix": "26202c6e6503eae2d9503a83029e862da34f40b8ecb657de5dc7dd855c49d576",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/switch.gv",
+        "path_type": "hardlink",
+        "sha256": "a2cb260c13ae822ae0e0824c592cd81cd730203b723cc8b960e5a4355c90865e",
+        "sha256_in_prefix": "a2cb260c13ae822ae0e0824c592cd81cd730203b723cc8b960e5a4355c90865e",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/table.gv",
+        "path_type": "hardlink",
+        "sha256": "ce329a738a43c7866fb8c0393bdbfe0693e86b0699905f0f436e2ba156d83797",
+        "sha256_in_prefix": "ce329a738a43c7866fb8c0393bdbfe0693e86b0699905f0f436e2ba156d83797",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/train11.gv",
+        "path_type": "hardlink",
+        "sha256": "5378b7b4286a84daf647f74998ad3e4f241510b24aaac3b855250ef8e1f7101a",
+        "sha256_in_prefix": "5378b7b4286a84daf647f74998ad3e4f241510b24aaac3b855250ef8e1f7101a",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/trapeziumlr.gv",
+        "path_type": "hardlink",
+        "sha256": "043f5b11cd27f4e3d668020c3244217f1dfe562a5331a0e8ae7ae73998d59c73",
+        "sha256_in_prefix": "043f5b11cd27f4e3d668020c3244217f1dfe562a5331a0e8ae7ae73998d59c73",
+        "size_in_bytes": 1484
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/tree.gv",
+        "path_type": "hardlink",
+        "sha256": "e2bfbcabc74746af4021ccdaaaca0ef1c90ce8390e0b4d7aaafb77756c0a2cbd",
+        "sha256_in_prefix": "e2bfbcabc74746af4021ccdaaaca0ef1c90ce8390e0b4d7aaafb77756c0a2cbd",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/triedds.gv",
+        "path_type": "hardlink",
+        "sha256": "0b50ddccb90cf82a97d9a8bc2c6e60d08e7c652b9da26ac7bd363f3e39909541",
+        "sha256_in_prefix": "0b50ddccb90cf82a97d9a8bc2c6e60d08e7c652b9da26ac7bd363f3e39909541",
+        "size_in_bytes": 1610
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/try.gv",
+        "path_type": "hardlink",
+        "sha256": "bc6d17fe4b4ede5490ed7ff5d8a020f6a6043e877aa071896dfd7f2c6dd3abb8",
+        "sha256_in_prefix": "bc6d17fe4b4ede5490ed7ff5d8a020f6a6043e877aa071896dfd7f2c6dd3abb8",
+        "size_in_bytes": 163
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/unix.gv",
+        "path_type": "hardlink",
+        "sha256": "e2c0157140642c42f3165f81bc81125ae0516110f7916dc7464f26bbfb881b1a",
+        "sha256_in_prefix": "e2c0157140642c42f3165f81bc81125ae0516110f7916dc7464f26bbfb881b1a",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/unix2.gv",
+        "path_type": "hardlink",
+        "sha256": "49d1139d83b83eab9f45bc0b89c66bb26553f4098e503af0c3a3724d61c23df4",
+        "sha256_in_prefix": "49d1139d83b83eab9f45bc0b89c66bb26553f4098e503af0c3a3724d61c23df4",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/viewfile.gv",
+        "path_type": "hardlink",
+        "sha256": "5c3944f1ee97fbb35a15e57e878048b50049b1ea7ce77f1a1e19960de7358f52",
+        "sha256_in_prefix": "5c3944f1ee97fbb35a15e57e878048b50049b1ea7ce77f1a1e19960de7358f52",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "share/graphviz/graphs/directed/world.gv",
+        "path_type": "hardlink",
+        "sha256": "20d53d78ca4723c9e8cf8099e71702b5f0f4b283d6845417b41875c35c11c772",
+        "sha256_in_prefix": "20d53d78ca4723c9e8cf8099e71702b5f0f4b283d6845417b41875c35c11c772",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/ER.gv",
+        "path_type": "hardlink",
+        "sha256": "4afff596c1f6314e3da60bc514b6004eb0f7276128c9bd00d11bbd5b708cc669",
+        "sha256_in_prefix": "4afff596c1f6314e3da60bc514b6004eb0f7276128c9bd00d11bbd5b708cc669",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/Heawood.gv",
+        "path_type": "hardlink",
+        "sha256": "2c077ec5c647cff5ec58fcfcc7e578e29d08cd6cf0bb118508125a3255046a5d",
+        "sha256_in_prefix": "2c077ec5c647cff5ec58fcfcc7e578e29d08cd6cf0bb118508125a3255046a5d",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/Petersen.gv",
+        "path_type": "hardlink",
+        "sha256": "aa6bc461fc55e79a012bbeb212553119f8a4a7f5a6c445783ce9200c9043f214",
+        "sha256_in_prefix": "aa6bc461fc55e79a012bbeb212553119f8a4a7f5a6c445783ce9200c9043f214",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/ngk10_4.gv",
+        "path_type": "hardlink",
+        "sha256": "7fcbb7ed7e02b78d250b7a3c4f5bd5e901eb2e29b37cb6e7529b8e677e88e416",
+        "sha256_in_prefix": "7fcbb7ed7e02b78d250b7a3c4f5bd5e901eb2e29b37cb6e7529b8e677e88e416",
+        "size_in_bytes": 1754
+      },
+      {
+        "_path": "share/graphviz/graphs/undirected/process.gv",
+        "path_type": "hardlink",
+        "sha256": "6aeded9884ca551bcfbc19c5e49811736b23015af296b30c2d9973d929063a0f",
+        "sha256_in_prefix": "6aeded9884ca551bcfbc19c5e49811736b23015af296b30c2d9973d929063a0f",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "share/graphviz/gvpr/addedges",
+        "path_type": "hardlink",
+        "sha256": "326a3cf3ea03160c2cfe22fb810a02d5fd24ecb76f75e7546aadbe76c9c18d79",
+        "sha256_in_prefix": "326a3cf3ea03160c2cfe22fb810a02d5fd24ecb76f75e7546aadbe76c9c18d79",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "share/graphviz/gvpr/addranks",
+        "path_type": "hardlink",
+        "sha256": "04983ac033e2cedbcc8dde642532ed5402b477cad8928fe2da35d6560e0d2758",
+        "sha256_in_prefix": "04983ac033e2cedbcc8dde642532ed5402b477cad8928fe2da35d6560e0d2758",
+        "size_in_bytes": 830
+      },
+      {
+        "_path": "share/graphviz/gvpr/addrings",
+        "path_type": "hardlink",
+        "sha256": "baa1868428cab35eb5f3fb1e46bc5852b1695b844bbd97c61afed9de4c93f83d",
+        "sha256_in_prefix": "baa1868428cab35eb5f3fb1e46bc5852b1695b844bbd97c61afed9de4c93f83d",
+        "size_in_bytes": 1319
+      },
+      {
+        "_path": "share/graphviz/gvpr/anon",
+        "path_type": "hardlink",
+        "sha256": "219d7f2b9f46901db8665cea6ee63bca576cd6b9e0d47959df3771e1c3a1ca54",
+        "sha256_in_prefix": "219d7f2b9f46901db8665cea6ee63bca576cd6b9e0d47959df3771e1c3a1ca54",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "share/graphviz/gvpr/attr",
+        "path_type": "hardlink",
+        "sha256": "21ec2560480ccbf6713e5a0fc166f38b62600275786c28040cbb7b9ee5e83c4e",
+        "sha256_in_prefix": "21ec2560480ccbf6713e5a0fc166f38b62600275786c28040cbb7b9ee5e83c4e",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "share/graphviz/gvpr/bb",
+        "path_type": "hardlink",
+        "sha256": "3b2bde2a44ea66d32c8e900e1a9bd834cf2b7eed92c8a67e62706220a470053b",
+        "sha256_in_prefix": "3b2bde2a44ea66d32c8e900e1a9bd834cf2b7eed92c8a67e62706220a470053b",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "share/graphviz/gvpr/bbox",
+        "path_type": "hardlink",
+        "sha256": "eff1ce8b3f9a2a03f9b4c4d1b75b6122a8eeb0ac909a4bc65cde436b24764780",
+        "sha256_in_prefix": "eff1ce8b3f9a2a03f9b4c4d1b75b6122a8eeb0ac909a4bc65cde436b24764780",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "share/graphviz/gvpr/binduce",
+        "path_type": "hardlink",
+        "sha256": "da703297ea43e125a03a8bc847008f66184e8cc427502189e39ea1095c4de13f",
+        "sha256_in_prefix": "da703297ea43e125a03a8bc847008f66184e8cc427502189e39ea1095c4de13f",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "share/graphviz/gvpr/bipart",
+        "path_type": "hardlink",
+        "sha256": "355ce3d46807a30e8ceadd906e3b4f32329a4d59b48b08f7ea49b43463acdf0c",
+        "sha256_in_prefix": "355ce3d46807a30e8ceadd906e3b4f32329a4d59b48b08f7ea49b43463acdf0c",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "share/graphviz/gvpr/chkclusters",
+        "path_type": "hardlink",
+        "sha256": "55a72442377fa5be69ef9c5a349435077aecf228f10e0b6a6e1b194ade589071",
+        "sha256_in_prefix": "55a72442377fa5be69ef9c5a349435077aecf228f10e0b6a6e1b194ade589071",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "share/graphviz/gvpr/chkedges",
+        "path_type": "hardlink",
+        "sha256": "e41dee8621fd28b1ec2d2571daffd44833f4ffa779eb280f710da4992216b569",
+        "sha256_in_prefix": "e41dee8621fd28b1ec2d2571daffd44833f4ffa779eb280f710da4992216b569",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "share/graphviz/gvpr/cliptree",
+        "path_type": "hardlink",
+        "sha256": "9c1d92f85ca85f6e7c83d9dde04710b6f527ecb919f5b50624606acae9d16d0e",
+        "sha256_in_prefix": "9c1d92f85ca85f6e7c83d9dde04710b6f527ecb919f5b50624606acae9d16d0e",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "share/graphviz/gvpr/col",
+        "path_type": "hardlink",
+        "sha256": "f9b423cd497fb7f7d0f2e52e379809702f26ab5b5d5bddbe94bbc647a1ad89bf",
+        "sha256_in_prefix": "f9b423cd497fb7f7d0f2e52e379809702f26ab5b5d5bddbe94bbc647a1ad89bf",
+        "size_in_bytes": 601
+      },
+      {
+        "_path": "share/graphviz/gvpr/collapse",
+        "path_type": "hardlink",
+        "sha256": "915084012645e5252d1a04c832997b0cc163042af2276685f8f0a90ef614515b",
+        "sha256_in_prefix": "915084012645e5252d1a04c832997b0cc163042af2276685f8f0a90ef614515b",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "share/graphviz/gvpr/color",
+        "path_type": "hardlink",
+        "sha256": "217b6b954b3c91decacc7647d57b6cf06acc02afcbe6ed8123c4afef3d54699c",
+        "sha256_in_prefix": "217b6b954b3c91decacc7647d57b6cf06acc02afcbe6ed8123c4afef3d54699c",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "share/graphviz/gvpr/cycle",
+        "path_type": "hardlink",
+        "sha256": "7f4dc5916170df338265081b7f5c8016a1519b42b560c12563c98bfcf26fb983",
+        "sha256_in_prefix": "7f4dc5916170df338265081b7f5c8016a1519b42b560c12563c98bfcf26fb983",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "share/graphviz/gvpr/dechain",
+        "path_type": "hardlink",
+        "sha256": "029c2ad3d79f732668d4098c7086193170cd83857ec96a6c7bfc9e3f8c3bb6f3",
+        "sha256_in_prefix": "029c2ad3d79f732668d4098c7086193170cd83857ec96a6c7bfc9e3f8c3bb6f3",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "share/graphviz/gvpr/deghist",
+        "path_type": "hardlink",
+        "sha256": "99ba8ef29968e8d7865674e2999df4915ee34e1aabba1512320a76e33f64dad2",
+        "sha256_in_prefix": "99ba8ef29968e8d7865674e2999df4915ee34e1aabba1512320a76e33f64dad2",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "share/graphviz/gvpr/deledges",
+        "path_type": "hardlink",
+        "sha256": "9d8480fa62201b1ad74c8250a8aaf0b9477346cfdd10571562076952c541649a",
+        "sha256_in_prefix": "9d8480fa62201b1ad74c8250a8aaf0b9477346cfdd10571562076952c541649a",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "share/graphviz/gvpr/delmulti",
+        "path_type": "hardlink",
+        "sha256": "a4b0f656f09ef687106aca47252b872274918aa5c4ab8ae71e02819eee329367",
+        "sha256_in_prefix": "a4b0f656f09ef687106aca47252b872274918aa5c4ab8ae71e02819eee329367",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "share/graphviz/gvpr/delnodes",
+        "path_type": "hardlink",
+        "sha256": "0e5c6b68cab6afcadd5cb001b9ed1c782aa266423cd935321168a7478c414151",
+        "sha256_in_prefix": "0e5c6b68cab6afcadd5cb001b9ed1c782aa266423cd935321168a7478c414151",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/graphviz/gvpr/depath",
+        "path_type": "hardlink",
+        "sha256": "a8bc17edf5e9919be3bb1ed2f53e010c37d32d53414fdc4763f1a11d4f5e5d92",
+        "sha256_in_prefix": "a8bc17edf5e9919be3bb1ed2f53e010c37d32d53414fdc4763f1a11d4f5e5d92",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "share/graphviz/gvpr/dijkstra",
+        "path_type": "hardlink",
+        "sha256": "292643cd4b10ced1bf41814f2a3dc52590e4df8e7fc502143854332c3ecaa682",
+        "sha256_in_prefix": "292643cd4b10ced1bf41814f2a3dc52590e4df8e7fc502143854332c3ecaa682",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "share/graphviz/gvpr/flatten",
+        "path_type": "hardlink",
+        "sha256": "223afb705b5f7492835742dce61a997ce3923fb0b7cc719e7c20a9231e0f108b",
+        "sha256_in_prefix": "223afb705b5f7492835742dce61a997ce3923fb0b7cc719e7c20a9231e0f108b",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/graphviz/gvpr/get-layers-list",
+        "path_type": "hardlink",
+        "sha256": "a00ac0ba747888d17c0b12296c3bbace71be723910a3ee7d30495dfa789696cf",
+        "sha256_in_prefix": "a00ac0ba747888d17c0b12296c3bbace71be723910a3ee7d30495dfa789696cf",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "share/graphviz/gvpr/group",
+        "path_type": "hardlink",
+        "sha256": "8e30f551a9120a6fde14da8d524f8734ea8915edaca47821a8c9de1cb78a6e90",
+        "sha256_in_prefix": "8e30f551a9120a6fde14da8d524f8734ea8915edaca47821a8c9de1cb78a6e90",
+        "size_in_bytes": 791
+      },
+      {
+        "_path": "share/graphviz/gvpr/histogram",
+        "path_type": "hardlink",
+        "sha256": "a6c24ad14a26230064fe31bdcacfa85bc659c90dd846e8f6fff1f533011acbf6",
+        "sha256_in_prefix": "a6c24ad14a26230064fe31bdcacfa85bc659c90dd846e8f6fff1f533011acbf6",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "share/graphviz/gvpr/indent",
+        "path_type": "hardlink",
+        "sha256": "a50c784418b7bc32d641eda8a5675fe72467550bd22868776a35c9518598a7ca",
+        "sha256_in_prefix": "a50c784418b7bc32d641eda8a5675fe72467550bd22868776a35c9518598a7ca",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "share/graphviz/gvpr/knbhd",
+        "path_type": "hardlink",
+        "sha256": "9f3ac0e72189c5a1d84cfa3f0eddc84d1dde7830e5c585f5b235c6ba633398f0",
+        "sha256_in_prefix": "9f3ac0e72189c5a1d84cfa3f0eddc84d1dde7830e5c585f5b235c6ba633398f0",
+        "size_in_bytes": 1226
+      },
+      {
+        "_path": "share/graphviz/gvpr/maxdeg",
+        "path_type": "hardlink",
+        "sha256": "7db84f9f382f7086fdaf3025c0aeaf738f17b62c2b05d75e21a7a2ce11170964",
+        "sha256_in_prefix": "7db84f9f382f7086fdaf3025c0aeaf738f17b62c2b05d75e21a7a2ce11170964",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "share/graphviz/gvpr/path",
+        "path_type": "hardlink",
+        "sha256": "1f0bd65cbc2ae27c1e0343804538ea467784c9c64df30b0e24d135d41308876b",
+        "sha256_in_prefix": "1f0bd65cbc2ae27c1e0343804538ea467784c9c64df30b0e24d135d41308876b",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "share/graphviz/gvpr/rotate",
+        "path_type": "hardlink",
+        "sha256": "40f2aa9033cc26d62798b2e0f6bef17e38fef0d6ef8cf52c57ec37db6457d64e",
+        "sha256_in_prefix": "40f2aa9033cc26d62798b2e0f6bef17e38fef0d6ef8cf52c57ec37db6457d64e",
+        "size_in_bytes": 1194
+      },
+      {
+        "_path": "share/graphviz/gvpr/scale",
+        "path_type": "hardlink",
+        "sha256": "3c456db7f3a37778856f0df913348240537f64c94548e0b274d24f943c37c114",
+        "sha256_in_prefix": "3c456db7f3a37778856f0df913348240537f64c94548e0b274d24f943c37c114",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "share/graphviz/gvpr/scalexy",
+        "path_type": "hardlink",
+        "sha256": "1f4044155281605d24842fe47f0a2289b852426a4d721ecd9f20b43a430fdc90",
+        "sha256_in_prefix": "1f4044155281605d24842fe47f0a2289b852426a4d721ecd9f20b43a430fdc90",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "share/graphviz/gvpr/span",
+        "path_type": "hardlink",
+        "sha256": "546949a2f1d5fa6ee32f523ef94541e1de93f320e13895e527a72598be4fd8bb",
+        "sha256_in_prefix": "546949a2f1d5fa6ee32f523ef94541e1de93f320e13895e527a72598be4fd8bb",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "share/graphviz/gvpr/topon",
+        "path_type": "hardlink",
+        "sha256": "e544d967956092c3d175590a935bace73a983722f64cb6d789b27ea5e8e5f9c5",
+        "sha256_in_prefix": "e544d967956092c3d175590a935bace73a983722f64cb6d789b27ea5e8e5f9c5",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "share/graphviz/gvpr/treetoclust",
+        "path_type": "hardlink",
+        "sha256": "fdab591480189588a9926b3ecb53ac40b3939d5825d16ba31d79ca97715881b9",
+        "sha256_in_prefix": "fdab591480189588a9926b3ecb53ac40b3939d5825d16ba31d79ca97715881b9",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "share/man/man1/acyclic.1",
+        "path_type": "hardlink",
+        "sha256": "835c0889b4f2d84bc63335b6d693cebc1c4b6ee36da9985bd4c127c715e5598b",
+        "sha256_in_prefix": "835c0889b4f2d84bc63335b6d693cebc1c4b6ee36da9985bd4c127c715e5598b",
+        "size_in_bytes": 1596
+      },
+      {
+        "_path": "share/man/man1/bcomps.1",
+        "path_type": "hardlink",
+        "sha256": "a40f368dd9c5dfc7050dec19b401f2bc61d43f8b09c1465acab8a2e52a20a9be",
+        "sha256_in_prefix": "a40f368dd9c5dfc7050dec19b401f2bc61d43f8b09c1465acab8a2e52a20a9be",
+        "size_in_bytes": 2107
+      },
+      {
+        "_path": "share/man/man1/ccomps.1",
+        "path_type": "hardlink",
+        "sha256": "97498fddc8dc120db1d180b927b48d2f8e6add46dc320e38ac2ecac858d361f1",
+        "sha256_in_prefix": "97498fddc8dc120db1d180b927b48d2f8e6add46dc320e38ac2ecac858d361f1",
+        "size_in_bytes": 4148
+      },
+      {
+        "_path": "share/man/man1/circo.1",
+        "path_type": "softlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/cluster.1",
+        "path_type": "hardlink",
+        "sha256": "8cdddd6342d86730d2ac8a75f000e8a7151ddbe42f8bb691d715b90df3c8bb51",
+        "sha256_in_prefix": "8cdddd6342d86730d2ac8a75f000e8a7151ddbe42f8bb691d715b90df3c8bb51",
+        "size_in_bytes": 2277
+      },
+      {
+        "_path": "share/man/man1/diffimg.1",
+        "path_type": "hardlink",
+        "sha256": "e7ba897daf2a3aa4b480cfaa6bce0e8f332226f96e9be93c96b3a82aa223495d",
+        "sha256_in_prefix": "e7ba897daf2a3aa4b480cfaa6bce0e8f332226f96e9be93c96b3a82aa223495d",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "share/man/man1/dijkstra.1",
+        "path_type": "hardlink",
+        "sha256": "26d05d1d758e0bff058c58293f6bcb0dd8853dff599ec739e728687ee5539c29",
+        "sha256_in_prefix": "26d05d1d758e0bff058c58293f6bcb0dd8853dff599ec739e728687ee5539c29",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "share/man/man1/dot.1",
+        "path_type": "hardlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "sha256_in_prefix": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/dot2gxl.1",
+        "path_type": "softlink",
+        "sha256": "a25fef9cf4c1c49643e84dcf3fbe3a3b65840612bf103b3e73a1e9de7fc49259",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "share/man/man1/dotty.1",
+        "path_type": "hardlink",
+        "sha256": "da1f0366806ba1218bfa5084a87b60e98f3e8f4d2dbaa1ca7a6c8a41432b1a5c",
+        "sha256_in_prefix": "da1f0366806ba1218bfa5084a87b60e98f3e8f4d2dbaa1ca7a6c8a41432b1a5c",
+        "size_in_bytes": 1483
+      },
+      {
+        "_path": "share/man/man1/edgepaint.1",
+        "path_type": "hardlink",
+        "sha256": "184a3f444060b1994415e1522cdddca3c71ed0719596ad20f30f5a9f2d0d08e9",
+        "sha256_in_prefix": "184a3f444060b1994415e1522cdddca3c71ed0719596ad20f30f5a9f2d0d08e9",
+        "size_in_bytes": 2141
+      },
+      {
+        "_path": "share/man/man1/fdp.1",
+        "path_type": "softlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/gc.1",
+        "path_type": "hardlink",
+        "sha256": "a2427f87bdcdd870c50faee100f3c0f7a28eec92a41325486b05dd94b4995201",
+        "sha256_in_prefix": "a2427f87bdcdd870c50faee100f3c0f7a28eec92a41325486b05dd94b4995201",
+        "size_in_bytes": 1503
+      },
+      {
+        "_path": "share/man/man1/gml2gv.1",
+        "path_type": "hardlink",
+        "sha256": "90fc456fcbd0eafab8bc1888c2b2f8212513c32c153fb4c7f0ce3673467b4af7",
+        "sha256_in_prefix": "90fc456fcbd0eafab8bc1888c2b2f8212513c32c153fb4c7f0ce3673467b4af7",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "share/man/man1/graphml2gv.1",
+        "path_type": "hardlink",
+        "sha256": "672ba3a0fa517897f7bf5433591679eb5068d202d29ce1e3ea42876e14fe7aa3",
+        "sha256_in_prefix": "672ba3a0fa517897f7bf5433591679eb5068d202d29ce1e3ea42876e14fe7aa3",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "share/man/man1/gv2gml.1",
+        "path_type": "softlink",
+        "sha256": "90fc456fcbd0eafab8bc1888c2b2f8212513c32c153fb4c7f0ce3673467b4af7",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "share/man/man1/gv2gxl.1",
+        "path_type": "softlink",
+        "sha256": "a25fef9cf4c1c49643e84dcf3fbe3a3b65840612bf103b3e73a1e9de7fc49259",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "share/man/man1/gvcolor.1",
+        "path_type": "hardlink",
+        "sha256": "615989f5ec54c3146117b52d12b431197eb1b10408913436f55a2aed2806fc26",
+        "sha256_in_prefix": "615989f5ec54c3146117b52d12b431197eb1b10408913436f55a2aed2806fc26",
+        "size_in_bytes": 1926
+      },
+      {
+        "_path": "share/man/man1/gvgen.1",
+        "path_type": "hardlink",
+        "sha256": "c203bb66b17359f5d54e9418a9a01c282b040ac8934b8cb7b4566e3de10f6c96",
+        "sha256_in_prefix": "c203bb66b17359f5d54e9418a9a01c282b040ac8934b8cb7b4566e3de10f6c96",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "share/man/man1/gvmap.1",
+        "path_type": "hardlink",
+        "sha256": "fc16d6f8f4a0db3388d2cfaedb0e04eeaa1c5d0f75e85944e6fff46def08dc50",
+        "sha256_in_prefix": "fc16d6f8f4a0db3388d2cfaedb0e04eeaa1c5d0f75e85944e6fff46def08dc50",
+        "size_in_bytes": 5622
+      },
+      {
+        "_path": "share/man/man1/gvmap.sh.1",
+        "path_type": "hardlink",
+        "sha256": "d1f04a38c421d0d63a2040c7f4db6488697599982ef00906672b510017903190",
+        "sha256_in_prefix": "d1f04a38c421d0d63a2040c7f4db6488697599982ef00906672b510017903190",
+        "size_in_bytes": 3081
+      },
+      {
+        "_path": "share/man/man1/gvpack.1",
+        "path_type": "hardlink",
+        "sha256": "f4a87bab0c97776f9dadc71d5c16b130fc29d6519da819f5651d9d3fe26a9c15",
+        "sha256_in_prefix": "f4a87bab0c97776f9dadc71d5c16b130fc29d6519da819f5651d9d3fe26a9c15",
+        "size_in_bytes": 3920
+      },
+      {
+        "_path": "share/man/man1/gvpr.1",
+        "path_type": "hardlink",
+        "sha256": "a9ff482593e1bf0f7c356945c2eb591d48428963ffedda33a2dac33af051aa7a",
+        "sha256_in_prefix": "a9ff482593e1bf0f7c356945c2eb591d48428963ffedda33a2dac33af051aa7a",
+        "size_in_bytes": 46451
+      },
+      {
+        "_path": "share/man/man1/gxl2dot.1",
+        "path_type": "softlink",
+        "sha256": "a25fef9cf4c1c49643e84dcf3fbe3a3b65840612bf103b3e73a1e9de7fc49259",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "share/man/man1/gxl2gv.1",
+        "path_type": "hardlink",
+        "sha256": "a25fef9cf4c1c49643e84dcf3fbe3a3b65840612bf103b3e73a1e9de7fc49259",
+        "sha256_in_prefix": "a25fef9cf4c1c49643e84dcf3fbe3a3b65840612bf103b3e73a1e9de7fc49259",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "share/man/man1/lneato.1",
+        "path_type": "hardlink",
+        "sha256": "cd1991c373eb4266eb2f68fc531182e4f8bd38e681f345cfdc7047b0ae367bee",
+        "sha256_in_prefix": "cd1991c373eb4266eb2f68fc531182e4f8bd38e681f345cfdc7047b0ae367bee",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "share/man/man1/mingle.1",
+        "path_type": "hardlink",
+        "sha256": "1a18f60236c2ce2b04a95bf437d4ef0ae2b2743014cd34c7c2921e3a61e98db9",
+        "sha256_in_prefix": "1a18f60236c2ce2b04a95bf437d4ef0ae2b2743014cd34c7c2921e3a61e98db9",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "share/man/man1/mm2gv.1",
+        "path_type": "hardlink",
+        "sha256": "368b051372ce72f262ebd53c15c945e82ba9fb48cd9850ad5e125b0501ffd257",
+        "sha256_in_prefix": "368b051372ce72f262ebd53c15c945e82ba9fb48cd9850ad5e125b0501ffd257",
+        "size_in_bytes": 3134
+      },
+      {
+        "_path": "share/man/man1/neato.1",
+        "path_type": "softlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/nop.1",
+        "path_type": "hardlink",
+        "sha256": "9114945d72d10ed1928ae025a547ac31fc3b7d10c369aed59bbc14f128a8e6f7",
+        "sha256_in_prefix": "9114945d72d10ed1928ae025a547ac31fc3b7d10c369aed59bbc14f128a8e6f7",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "share/man/man1/osage.1",
+        "path_type": "hardlink",
+        "sha256": "9ac855c3b85c05c52c01638582257c11bd0b01fe2f79e1eeee64de1e451748d9",
+        "sha256_in_prefix": "9ac855c3b85c05c52c01638582257c11bd0b01fe2f79e1eeee64de1e451748d9",
+        "size_in_bytes": 19101
+      },
+      {
+        "_path": "share/man/man1/patchwork.1",
+        "path_type": "hardlink",
+        "sha256": "a0b396493f0cf22e75584b12f48c6abf63ae43e3dab8347a5548bc550df136b5",
+        "sha256_in_prefix": "a0b396493f0cf22e75584b12f48c6abf63ae43e3dab8347a5548bc550df136b5",
+        "size_in_bytes": 19105
+      },
+      {
+        "_path": "share/man/man1/prune.1",
+        "path_type": "hardlink",
+        "sha256": "f0a3e02ec81a116999d59d7039deee147b0ae54560851186886429102bc2822e",
+        "sha256_in_prefix": "f0a3e02ec81a116999d59d7039deee147b0ae54560851186886429102bc2822e",
+        "size_in_bytes": 2646
+      },
+      {
+        "_path": "share/man/man1/sccmap.1",
+        "path_type": "hardlink",
+        "sha256": "bc8a6942dda253e3f3aeff012a89de780318512c53e8681c0d65853d1e6a57a2",
+        "sha256_in_prefix": "bc8a6942dda253e3f3aeff012a89de780318512c53e8681c0d65853d1e6a57a2",
+        "size_in_bytes": 1761
+      },
+      {
+        "_path": "share/man/man1/sfdp.1",
+        "path_type": "softlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/tred.1",
+        "path_type": "hardlink",
+        "sha256": "9fe87bb71726347aefe9ba02889b2375978fe952176589e25d0aad338987b0f2",
+        "sha256_in_prefix": "9fe87bb71726347aefe9ba02889b2375978fe952176589e25d0aad338987b0f2",
+        "size_in_bytes": 1354
+      },
+      {
+        "_path": "share/man/man1/twopi.1",
+        "path_type": "softlink",
+        "sha256": "60127d873065ed8f942c7a56034150616aad210de13f009e80689bd897155f44",
+        "size_in_bytes": 29638
+      },
+      {
+        "_path": "share/man/man1/unflatten.1",
+        "path_type": "hardlink",
+        "sha256": "4aeb77d32117cdac562ba4f026176ccc2bc6c2b46cfb8cead2e9dd7928d9bd40",
+        "sha256_in_prefix": "4aeb77d32117cdac562ba4f026176ccc2bc6c2b46cfb8cead2e9dd7928d9bd40",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "share/man/man1/vimdot.1",
+        "path_type": "hardlink",
+        "sha256": "3c3ee029ed6f78d1ef5f0b5c2531fb8f05bc44a60398be3aed325882f91daa91",
+        "sha256_in_prefix": "3c3ee029ed6f78d1ef5f0b5c2531fb8f05bc44a60398be3aed325882f91daa91",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "share/man/man3/cdt.3",
+        "path_type": "hardlink",
+        "sha256": "623cddf039e39c0169494466af4822f0c569bf0f728bd2a00559266c843af1d3",
+        "sha256_in_prefix": "623cddf039e39c0169494466af4822f0c569bf0f728bd2a00559266c843af1d3",
+        "size_in_bytes": 23982
+      },
+      {
+        "_path": "share/man/man3/cgraph.3",
+        "path_type": "hardlink",
+        "sha256": "66440c9b53db59def27c54a0cd5510e15172c7d73f55b80fcfdaac920c40b790",
+        "sha256_in_prefix": "66440c9b53db59def27c54a0cd5510e15172c7d73f55b80fcfdaac920c40b790",
+        "size_in_bytes": 27930
+      },
+      {
+        "_path": "share/man/man3/expr.3",
+        "path_type": "hardlink",
+        "sha256": "1f41f33b8a8944388723f73c9e5eecc993ec130ffd03fcd252536ad81bb35c14",
+        "sha256_in_prefix": "1f41f33b8a8944388723f73c9e5eecc993ec130ffd03fcd252536ad81bb35c14",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "share/man/man3/gvc.3",
+        "path_type": "hardlink",
+        "sha256": "baabb11987cce9e506079170ea1a6dae119a615ed7955371cb3f17500388c10d",
+        "sha256_in_prefix": "baabb11987cce9e506079170ea1a6dae119a615ed7955371cb3f17500388c10d",
+        "size_in_bytes": 2103
+      },
+      {
+        "_path": "share/man/man3/gvpr.3",
+        "path_type": "hardlink",
+        "sha256": "035426da88b16d31373315ea67c6e9525d167a8f536755234ad327c51558707c",
+        "sha256_in_prefix": "035426da88b16d31373315ea67c6e9525d167a8f536755234ad327c51558707c",
+        "size_in_bytes": 2966
+      },
+      {
+        "_path": "share/man/man3/pack.3",
+        "path_type": "hardlink",
+        "sha256": "0743f60135d8bd2ee21c481bb1dbad09497d09d858f041567ab59f7afcb9994d",
+        "sha256_in_prefix": "0743f60135d8bd2ee21c481bb1dbad09497d09d858f041567ab59f7afcb9994d",
+        "size_in_bytes": 9628
+      },
+      {
+        "_path": "share/man/man3/pathplan.3",
+        "path_type": "hardlink",
+        "sha256": "00113626dd634ae17b567c07c7896b6b49a906e69dd0e7f72ddb6b1125a3337f",
+        "sha256_in_prefix": "00113626dd634ae17b567c07c7896b6b49a906e69dd0e7f72ddb6b1125a3337f",
+        "size_in_bytes": 5386
+      },
+      {
+        "_path": "share/man/man3/xdot.3",
+        "path_type": "hardlink",
+        "sha256": "2e0e252aaa48477cbe7d63bb4f24883c0097b115edf0f1fd75dca3d80b81d8a4",
+        "sha256_in_prefix": "2e0e252aaa48477cbe7d63bb4f24883c0097b115edf0f1fd75dca3d80b81d8a4",
+        "size_in_bytes": 9337
+      },
+      {
+        "_path": "share/man/man7/graphviz.7",
+        "path_type": "hardlink",
+        "sha256": "5ebeb204c4431fe91a74fb868f1465c536aa8f40de7964350561ea1c2e36defc",
+        "sha256_in_prefix": "5ebeb204c4431fe91a74fb868f1465c536aa8f40de7964350561ea1c2e36defc",
+        "size_in_bytes": 2236
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "941560fbcab7863c42db304d2e52d1a42eb911df351c5fe362f6ba9cc4d3fa5c",
+  "size": 2466314,
+  "subdir": "osx-64",
+  "timestamp": 1656619344056,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/graphviz-2.50.0-h196fa6a_0.conda",
+  "version": "2.50.0"
+}

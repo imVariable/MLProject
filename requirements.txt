@@ -6,5 +6,9 @@ matplotlib
 catboost 
 xgboost
 dill 
-# pickle 
+pickle 
+flask  
+fastapi 
+uvicorn 
+gunicorn 
 # e-1 
